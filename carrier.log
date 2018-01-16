@@ -1,0 +1,2260 @@
+2017-12-08 20:44:23,493 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.21635'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249414')])])
+
+2017-12-08 20:44:23,494 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:44:23,569 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:44:23,670 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.21635'), ('lng', u'121.249414'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:44:23,671 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:44:23,742 - Response:('{"code":1800,"data":{"lat":31.219986975657,"lon":121.26044751417},"errmsg":"success"}', '\n')
+
+2017-12-08 20:45:05,288 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216348'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249413')])])
+
+2017-12-08 20:45:05,289 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:45:05,370 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:45:05,453 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216348'), ('lng', u'121.249413'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:45:05,453 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:45:05,534 - Response:('{"code":1800,"data":{"lat":31.219983741114,"lon":121.26044397979},"errmsg":"success"}', '\n')
+
+2017-12-08 20:45:13,348 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216347'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249412')])])
+
+2017-12-08 20:45:13,349 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:45:13,418 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:45:13,502 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216347'), ('lng', u'121.249412'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:45:13,502 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:45:13,563 - Response:('{"code":1800,"data":{"lat":31.219984275564,"lon":121.26044533864},"errmsg":"success"}', '\n')
+
+2017-12-08 20:50:34,726 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216349'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249411')])])
+
+2017-12-08 20:50:34,727 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:50:34,806 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:50:34,867 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216349'), ('lng', u'121.249411'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:50:34,868 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:50:34,930 - Response:('{"code":1800,"data":{"lat":31.219978295079,"lon":121.26044723601},"errmsg":"success"}', '\n')
+
+2017-12-08 20:50:42,714 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216349'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249411')])])
+
+2017-12-08 20:50:42,715 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:50:42,782 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:50:42,920 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216349'), ('lng', u'121.249411'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:50:42,921 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:50:42,986 - Response:('{"code":1800,"data":{"lat":31.219981851709,"lon":121.26044234824},"errmsg":"success"}', '\n')
+
+2017-12-08 20:50:50,783 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216349'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249411')])])
+
+2017-12-08 20:50:50,784 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:50:50,868 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:50:50,958 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216349'), ('lng', u'121.249411'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:50:50,959 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:50:51,021 - Response:('{"code":1800,"data":{"lat":31.219979954113,"lon":121.26044207514},"errmsg":"success"}', '\n')
+
+2017-12-08 20:50:58,747 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216348'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249403')])])
+
+2017-12-08 20:50:58,748 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:50:58,819 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:50:58,918 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216348'), ('lng', u'121.249403'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:50:58,919 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:50:58,990 - Response:('{"code":1800,"data":{"lat":31.219978125397,"lon":121.26043039108},"errmsg":"success"}', '\n')
+
+2017-12-08 20:51:06,739 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.217127'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249215')])])
+
+2017-12-08 20:51:06,740 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:51:06,809 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:51:06,894 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.217127'), ('lng', u'121.249215'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:06,895 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:51:06,949 - Response:('{"code":1800,"data":{"lat":31.220762019156,"lon":121.26024485122},"errmsg":"success"}', '\n')
+
+2017-12-08 20:51:14,757 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.217116'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249194')])])
+
+2017-12-08 20:51:14,758 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:51:14,841 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:51:14,929 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.217116'), ('lng', u'121.249194'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:14,930 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:51:15,014 - Response:('{"code":1800,"data":{"lat":31.220755095171,"lon":121.26022392506},"errmsg":"success"}', '\n')
+
+2017-12-08 20:51:22,845 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.217127'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249214')])])
+
+2017-12-08 20:51:22,850 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:51:22,923 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:51:23,027 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.217127'), ('lng', u'121.249214'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:23,028 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:51:23,106 - Response:('{"code":1800,"data":{"lat":31.220757659506,"lon":121.26024783683},"errmsg":"success"}', '\n')
+
+2017-12-08 20:51:30,759 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216936'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5'), ('longitude', u'121.249276')])])
+
+2017-12-08 20:51:30,760 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-08 20:51:30,836 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:51:30,920 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216936'), ('lng', u'121.249276'), ('token', u'8ffb0aa6a4a425d8a3d8850d9fcaf6b5')]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:30,921 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:51:30,989 - Response:('{"code":1800,"data":{"lat":31.220573592793,"lon":121.26030992391},"errmsg":"success"}', '\n')
+
+2017-12-08 20:51:50,718 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,725 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc150>
+
+2017-12-08 20:51:50,841 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,842 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc650>
+
+2017-12-08 20:51:50,848 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,849 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdcb10>
+
+2017-12-08 20:51:50,854 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,855 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc7d0>
+
+2017-12-08 20:51:50,953 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,954 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdced0>
+
+2017-12-08 20:51:50,956 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:50,958 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a2d51810>
+
+2017-12-08 20:51:51,201 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,202 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a352c1d0>
+
+2017-12-08 20:51:51,204 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,206 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a352c690>
+
+2017-12-08 20:51:51,810 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,811 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a352c610>
+
+2017-12-08 20:51:51,813 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,815 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdca10>
+
+2017-12-08 20:51:51,817 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,818 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc6d0>
+
+2017-12-08 20:51:51,820 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,822 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fc3510>
+
+2017-12-08 20:51:51,918 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,919 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc0d0>
+
+2017-12-08 20:51:51,922 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,923 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdcbd0>
+
+2017-12-08 20:51:51,925 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,926 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc650>
+
+2017-12-08 20:51:51,929 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,930 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc7d0>
+
+2017-12-08 20:51:51,939 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:51:51,940 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdce50>
+
+2017-12-08 20:51:52,221 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:14,134 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-08 20:52:14,140 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"2f8e77e3d0fb1ffc2c45e49e6369ab26","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:14,458 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:14,460 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc0d0>
+
+2017-12-08 20:52:14,755 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:14,757 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fea250>
+
+2017-12-08 20:52:14,774 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:14,776 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fea510>
+
+2017-12-08 20:52:14,779 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:14,780 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1feac90>
+
+2017-12-08 20:52:15,183 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,184 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdcd10>
+
+2017-12-08 20:52:15,186 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,188 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fc3710>
+
+2017-12-08 20:52:15,421 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,422 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fc3610>
+
+2017-12-08 20:52:15,424 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,426 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a2d1ec90>
+
+2017-12-08 20:52:15,428 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,429 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1feaad0>
+
+2017-12-08 20:52:15,616 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,618 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a2d1ebd0>
+
+2017-12-08 20:52:15,620 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,621 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a2d1e9d0>
+
+2017-12-08 20:52:15,624 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,625 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc6d0>
+
+2017-12-08 20:52:15,627 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:15,628 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdcd10>
+
+2017-12-08 20:52:16,161 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:16,162 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc150>
+
+2017-12-08 20:52:18,124 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:18,125 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1f7f550>
+
+2017-12-08 20:52:18,331 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:18,442 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:18,799 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216627'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249369')])])
+
+2017-12-08 20:52:18,800 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:18,880 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:18,997 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216627'), ('lng', u'121.249369'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:18,998 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:19,048 - Response:('{"code":1800,"data":{"lat":31.220263217572,"lon":121.26039636876},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:26,777 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216512'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249524')])])
+
+2017-12-08 20:52:26,778 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:26,850 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:26,988 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216512'), ('lng', u'121.249524'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:26,989 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:27,068 - Response:('{"code":1800,"data":{"lat":31.220148875447,"lon":121.26055141842},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:34,705 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216387'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249669')])])
+
+2017-12-08 20:52:34,705 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:34,778 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:34,896 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216387'), ('lng', u'121.249669'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:34,897 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:34,963 - Response:('{"code":1800,"data":{"lat":31.220015858485,"lon":121.26070237278},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:42,698 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216334'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249642')])])
+
+2017-12-08 20:52:42,699 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:42,766 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:42,889 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216334'), ('lng', u'121.249642'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:42,890 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:42,968 - Response:('{"code":1800,"data":{"lat":31.219967167499,"lon":121.26067707088},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:50,788 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.21634'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249599')])])
+
+2017-12-08 20:52:50,789 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:50,856 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:50,998 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.21634'), ('lng', u'121.249599'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:50,999 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:51,235 - Response:('{"code":1800,"data":{"lat":31.219971500223,"lon":121.26063197588},"errmsg":"success"}', '\n')
+
+2017-12-08 20:52:58,739 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216295'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249566')])])
+
+2017-12-08 20:52:58,740 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:52:58,808 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:52:58,947 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216295'), ('lng', u'121.249566'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:52:58,948 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:52:59,021 - Response:('{"code":1800,"data":{"lat":31.219929644997,"lon":121.26059798482},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:06,758 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216305'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.2495')])])
+
+2017-12-08 20:53:06,759 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:06,825 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:06,957 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216305'), ('lng', u'121.2495'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:06,958 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:07,083 - Response:('{"code":1800,"data":{"lat":31.21993923289,"lon":121.26053659187},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:14,802 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216294'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249403')])])
+
+2017-12-08 20:53:14,802 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:14,874 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:15,001 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216294'), ('lng', u'121.249403'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:15,002 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:15,072 - Response:('{"code":1800,"data":{"lat":31.21992522142,"lon":121.26042980824},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:22,714 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216267'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249321')])])
+
+2017-12-08 20:53:22,715 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:22,803 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:22,931 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216267'), ('lng', u'121.249321'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:22,932 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:22,997 - Response:('{"code":1800,"data":{"lat":31.219900737365,"lon":121.26035127051},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:30,743 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216323'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.24928')])])
+
+2017-12-08 20:53:30,744 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:30,813 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:30,924 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216323'), ('lng', u'121.24928'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:30,925 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:30,984 - Response:('{"code":1800,"data":{"lat":31.219961466539,"lon":121.2603146367},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:38,703 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216384'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249234')])])
+
+2017-12-08 20:53:38,704 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:38,781 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:38,904 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216384'), ('lng', u'121.249234'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:38,904 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:38,957 - Response:('{"code":1800,"data":{"lat":31.220015461047,"lon":121.26027038979},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:46,753 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216476'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249187')])])
+
+2017-12-08 20:53:46,754 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:46,837 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:46,959 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216476'), ('lng', u'121.249187'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:46,963 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:47,021 - Response:('{"code":1800,"data":{"lat":31.220115098273,"lon":121.26021666645},"errmsg":"success"}', '\n')
+
+2017-12-08 20:53:54,758 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216523'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249119')])])
+
+2017-12-08 20:53:54,759 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:53:54,826 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:53:54,943 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216523'), ('lng', u'121.249119'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:53:54,944 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:53:55,019 - Response:('{"code":1800,"data":{"lat":31.220158635042,"lon":121.26015339086},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:02,739 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216483'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.249028')])])
+
+2017-12-08 20:54:02,740 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:02,806 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:02,938 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216483'), ('lng', u'121.249028'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:02,938 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:02,991 - Response:('{"code":1800,"data":{"lat":31.220114759653,"lon":121.26005554196},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:10,723 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216436'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248915')])])
+
+2017-12-08 20:54:10,724 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:10,795 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:10,916 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216436'), ('lng', u'121.248915'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:10,917 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:10,992 - Response:('{"code":1800,"data":{"lat":31.220076916875,"lon":121.25994927175},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:18,764 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216376'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248793')])])
+
+2017-12-08 20:54:18,765 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:18,830 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:18,967 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216376'), ('lng', u'121.248793'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:18,968 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:19,043 - Response:('{"code":1800,"data":{"lat":31.220015332296,"lon":121.25982423174},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:26,747 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216342'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248685')])])
+
+2017-12-08 20:54:26,748 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:26,828 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:26,955 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216342'), ('lng', u'121.248685'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:26,956 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:27,007 - Response:('{"code":1800,"data":{"lat":31.219981090617,"lon":121.25971034949},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:34,739 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216379'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248582')])])
+
+2017-12-08 20:54:34,739 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:34,817 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:34,922 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216379'), ('lng', u'121.248582'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:34,923 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:34,979 - Response:('{"code":1800,"data":{"lat":31.220016739165,"lon":121.25961445132},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:42,775 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216465'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248497')])])
+
+2017-12-08 20:54:42,776 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:42,861 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:42,967 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216465'), ('lng', u'121.248497'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:42,968 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:43,043 - Response:('{"code":1800,"data":{"lat":31.220107934282,"lon":121.25953054909},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:50,783 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216555'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248424')])])
+
+2017-12-08 20:54:50,784 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:50,871 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:51,003 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216555'), ('lng', u'121.248424'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:51,004 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:51,066 - Response:('{"code":1800,"data":{"lat":31.220193093141,"lon":121.25945723888},"errmsg":"success"}', '\n')
+
+2017-12-08 20:54:58,774 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216633'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248351')])])
+
+2017-12-08 20:54:58,775 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:54:58,842 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:54:58,971 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216633'), ('lng', u'121.248351'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:54:58,972 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:54:59,026 - Response:('{"code":1800,"data":{"lat":31.220273386529,"lon":121.25938202122},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:06,764 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216721'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248285')])])
+
+2017-12-08 20:55:06,765 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:06,838 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:06,931 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216721'), ('lng', u'121.248285'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:06,932 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:07,010 - Response:('{"code":1800,"data":{"lat":31.220364774477,"lon":121.25931170185},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:14,774 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216806'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248221')])])
+
+2017-12-08 20:55:14,775 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:14,848 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:14,971 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216806'), ('lng', u'121.248221'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:14,972 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:15,036 - Response:('{"code":1800,"data":{"lat":31.220445488465,"lon":121.25925496164},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:22,786 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216893'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.24817')])])
+
+2017-12-08 20:55:22,787 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:22,865 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:22,994 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216893'), ('lng', u'121.24817'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:22,994 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:23,048 - Response:('{"code":1800,"data":{"lat":31.220536470527,"lon":121.2592044786},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:30,773 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216938'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248063')])])
+
+2017-12-08 20:55:30,774 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:30,842 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:30,956 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216938'), ('lng', u'121.248063'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:30,957 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:31,044 - Response:('{"code":1800,"data":{"lat":31.220583976825,"lon":121.25908846514},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:38,774 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216856'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.247993')])])
+
+2017-12-08 20:55:38,775 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:38,851 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:38,974 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216856'), ('lng', u'121.247993'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:38,975 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:39,027 - Response:('{"code":1800,"data":{"lat":31.220501466897,"lon":121.25901828593},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:46,795 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.21686'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248054')])])
+
+2017-12-08 20:55:46,796 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:46,864 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:47,001 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.21686'), ('lng', u'121.248054'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:47,001 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:47,066 - Response:('{"code":1800,"data":{"lat":31.220506395787,"lon":121.25908623472},"errmsg":"success"}', '\n')
+
+2017-12-08 20:55:54,774 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216917'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248083')])])
+
+2017-12-08 20:55:54,775 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:55:54,849 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:55:54,980 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216917'), ('lng', u'121.248083'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:55:54,980 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:55:55,045 - Response:('{"code":1800,"data":{"lat":31.22056289551,"lon":121.25911454056},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:02,819 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216879'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248096')])])
+
+2017-12-08 20:56:02,820 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:02,913 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:03,023 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216879'), ('lng', u'121.248096'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:03,024 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:03,092 - Response:('{"code":1800,"data":{"lat":31.220517783751,"lon":121.25912456361},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:10,894 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216826'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248009')])])
+
+2017-12-08 20:56:10,895 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:10,965 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:11,095 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216826'), ('lng', u'121.248009'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:11,096 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:11,154 - Response:('{"code":1800,"data":{"lat":31.220470091734,"lon":121.25904190819},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:19,152 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.217097'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.247858')])])
+
+2017-12-08 20:56:19,153 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:19,223 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:19,337 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.217097'), ('lng', u'121.247858'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:19,338 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:19,393 - Response:('{"code":1800,"data":{"lat":31.220741499216,"lon":121.25888338077},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:26,822 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216882'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.24796')])])
+
+2017-12-08 20:56:26,823 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:26,891 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:27,028 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216882'), ('lng', u'121.24796'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:27,028 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:27,098 - Response:('{"code":1800,"data":{"lat":31.220525840431,"lon":121.25898759201},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:34,783 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216674'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.247965')])])
+
+2017-12-08 20:56:34,784 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:34,867 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:34,965 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216674'), ('lng', u'121.247965'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:34,965 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:35,019 - Response:('{"code":1800,"data":{"lat":31.220314984147,"lon":121.25899314579},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:42,803 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.21656'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.247987')])])
+
+2017-12-08 20:56:42,804 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:42,881 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:43,008 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.21656'), ('lng', u'121.247987'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:43,008 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:43,084 - Response:('{"code":1800,"data":{"lat":31.220206857222,"lon":121.25901236301},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:50,820 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216578'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248084')])])
+
+2017-12-08 20:56:50,820 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:50,889 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:51,003 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216578'), ('lng', u'121.248084'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:51,004 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:51,072 - Response:('{"code":1800,"data":{"lat":31.220224591365,"lon":121.25911021697},"errmsg":"success"}', '\n')
+
+2017-12-08 20:56:58,824 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216545'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248093')])])
+
+2017-12-08 20:56:58,825 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:56:58,893 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:56:59,038 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216545'), ('lng', u'121.248093'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:56:59,039 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:56:59,107 - Response:('{"code":1800,"data":{"lat":31.220185181062,"lon":121.25911970012},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:06,883 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216577'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248109')])])
+
+2017-12-08 20:57:06,884 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:06,970 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:07,098 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216577'), ('lng', u'121.248109'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:07,099 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:07,154 - Response:('{"code":1800,"data":{"lat":31.220221671138,"lon":121.25913875133},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:14,873 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216602'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.24813')])])
+
+2017-12-08 20:57:14,874 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:14,956 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:15,053 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216602'), ('lng', u'121.24813'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:15,053 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:15,130 - Response:('{"code":1800,"data":{"lat":31.220242649273,"lon":121.25916431357},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:22,834 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216607'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248133')])])
+
+2017-12-08 20:57:22,835 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:22,955 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:23,047 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216607'), ('lng', u'121.248133'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:23,048 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:23,101 - Response:('{"code":1800,"data":{"lat":31.220251366791,"lon":121.25915942805},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:30,864 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216605'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248127')])])
+
+2017-12-08 20:57:30,865 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:30,934 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:31,053 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216605'), ('lng', u'121.248127'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:31,054 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:31,111 - Response:('{"code":1800,"data":{"lat":31.220248110969,"lon":121.25915942565},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:38,877 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216605'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248127')])])
+
+2017-12-08 20:57:38,878 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:38,949 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:39,074 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216605'), ('lng', u'121.248127'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:39,074 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:39,136 - Response:('{"code":1800,"data":{"lat":31.220245417418,"lon":121.25915670593},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:46,899 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216605'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248126')])])
+
+2017-12-08 20:57:46,900 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:46,969 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:47,109 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216605'), ('lng', u'121.248126'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:47,110 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:47,170 - Response:('{"code":1800,"data":{"lat":31.220242749417,"lon":121.25915045316},"errmsg":"success"}', '\n')
+
+2017-12-08 20:57:54,924 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216605'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248125')])])
+
+2017-12-08 20:57:54,925 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:57:54,993 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:57:55,125 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216605'), ('lng', u'121.248125'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:57:55,125 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:57:55,209 - Response:('{"code":1800,"data":{"lat":31.22025089487,"lon":121.25914964383},"errmsg":"success"}', '\n')
+
+2017-12-08 20:58:02,879 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216605'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26'), ('longitude', u'121.248126')])])
+
+2017-12-08 20:58:02,880 - client: 140.206.88.227, path: /carrier/up_map, method: POST
+
+2017-12-08 20:58:02,954 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-08 20:58:03,059 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216605'), ('lng', u'121.248126'), ('token', u'2f8e77e3d0fb1ffc2c45e49e6369ab26')]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:03,060 - client: 140.206.88.227, path: /carrier/geoconv, method: GET
+
+2017-12-08 20:58:03,112 - Response:('{"code":1800,"data":{"lat":31.220242957879,"lon":121.25915915009},"errmsg":"success"}', '\n')
+
+2017-12-08 20:58:04,081 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,082 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a2d1eb90>
+
+2017-12-08 20:58:04,239 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,240 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a34c1050>
+
+2017-12-08 20:58:04,243 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,244 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fafa10>
+
+2017-12-08 20:58:04,498 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,499 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fafad0>
+
+2017-12-08 20:58:04,501 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,502 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf8d0>
+
+2017-12-08 20:58:04,505 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,506 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fb6410>
+
+2017-12-08 20:58:04,894 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,895 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a34c1050>
+
+2017-12-08 20:58:04,898 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:04,899 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf910>
+
+2017-12-08 20:58:05,067 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,068 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf410>
+
+2017-12-08 20:58:05,071 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,072 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fafb90>
+
+2017-12-08 20:58:05,074 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,075 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf690>
+
+2017-12-08 20:58:05,078 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,079 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fb6910>
+
+2017-12-08 20:58:05,082 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,083 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdcb10>
+
+2017-12-08 20:58:05,192 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,194 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fdc290>
+
+2017-12-08 20:58:05,234 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,235 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf350>
+
+2017-12-08 20:58:05,303 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,304 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1faf310>
+
+2017-12-08 20:58:05,332 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-08 20:58:05,333 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f76a1fb6fd0>
+
+2017-12-08 20:58:05,630 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,714 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,722 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69912790>
+
+2017-12-09 15:12:15,791 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,792 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69929850>
+
+2017-12-09 15:12:15,880 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,881 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69929a90>
+
+2017-12-09 15:12:15,935 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,936 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f090>
+
+2017-12-09 15:12:15,939 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:15,940 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69929950>
+
+2017-12-09 15:12:16,032 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,034 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f6d0>
+
+2017-12-09 15:12:16,037 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,038 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f490>
+
+2017-12-09 15:12:16,040 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,042 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994fc10>
+
+2017-12-09 15:12:16,044 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,045 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f750>
+
+2017-12-09 15:12:16,504 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,506 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994fe50>
+
+2017-12-09 15:12:16,508 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,509 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994ff50>
+
+2017-12-09 15:12:16,512 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,513 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994fed0>
+
+2017-12-09 15:12:16,577 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,579 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f2d0>
+
+2017-12-09 15:12:16,680 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,682 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f190>
+
+2017-12-09 15:12:16,710 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,712 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691a3090>
+
+2017-12-09 15:12:16,914 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,915 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69929dd0>
+
+2017-12-09 15:12:16,920 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,921 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b699128d0>
+
+2017-12-09 15:12:16,979 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:16,980 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f0d0>
+
+2017-12-09 15:12:17,621 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:20,978 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:20,980 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f0d0>
+
+2017-12-09 15:12:21,330 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,331 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f2d0>
+
+2017-12-09 15:12:21,333 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,335 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b82d0>
+
+2017-12-09 15:12:21,337 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,338 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8690>
+
+2017-12-09 15:12:21,341 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,342 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8850>
+
+2017-12-09 15:12:21,345 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,346 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8750>
+
+2017-12-09 15:12:21,348 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,350 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8e90>
+
+2017-12-09 15:12:21,387 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,388 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8890>
+
+2017-12-09 15:12:21,391 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,392 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69929e10>
+
+2017-12-09 15:12:21,394 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,396 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f0d0>
+
+2017-12-09 15:12:21,398 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,399 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691c6050>
+
+2017-12-09 15:12:21,415 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,417 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b699128d0>
+
+2017-12-09 15:12:21,450 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,451 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69912950>
+
+2017-12-09 15:12:21,458 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,459 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691b8a10>
+
+2017-12-09 15:12:21,462 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,463 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b6994f850>
+
+2017-12-09 15:12:21,466 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,467 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691a3650>
+
+2017-12-09 15:12:21,578 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:21,579 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691c6110>
+
+2017-12-09 15:12:21,614 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:36,572 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:12:36,597 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"fde3ace8e76cac868a0b566229d6234b","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:12:36,850 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:36,852 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691a3590>
+
+2017-12-09 15:12:37,201 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:37,202 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69172510>
+
+2017-12-09 15:12:37,205 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:37,206 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b684ed510>
+
+2017-12-09 15:12:37,209 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:37,210 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b691a37d0>
+
+2017-12-09 15:12:37,215 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:37,216 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b69172390>
+
+2017-12-09 15:12:37,474 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:37,476 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b684ed310>
+
+2017-12-09 15:12:39,866 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:39,868 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f4b684edbd0>
+
+2017-12-09 15:12:40,026 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'fde3ace8e76cac868a0b566229d6234b')]), ImmutableMultiDict([])])
+
+2017-12-09 15:12:40,277 - Response:('{"code":1824,"data":"{\\"status\\":1,\\"message\\":\\"\\u670d\\u52a1\\u5668\\u5185\\u90e8\\u9519\\u8bef\\"}","errmsg":"query\\u56f4\\u680f\\u5931\\u8d25!"}', '\n')
+
+2017-12-09 15:13:13,472 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:13:17,632 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:13:19,812 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,239 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,240 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:14:14,402 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,409 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b53d0>
+
+2017-12-09 15:14:14,575 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,576 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f3102ff90>
+
+2017-12-09 15:14:14,578 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,579 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b58d0>
+
+2017-12-09 15:14:14,582 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,583 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5710>
+
+2017-12-09 15:14:14,967 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,969 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f3102ff90>
+
+2017-12-09 15:14:14,972 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:14,973 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5810>
+
+2017-12-09 15:14:15,257 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,258 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5610>
+
+2017-12-09 15:14:15,261 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,262 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5f50>
+
+2017-12-09 15:14:15,558 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,559 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb350>
+
+2017-12-09 15:14:15,562 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,563 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5a90>
+
+2017-12-09 15:14:15,565 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,567 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5950>
+
+2017-12-09 15:14:15,569 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,570 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5690>
+
+2017-12-09 15:14:15,621 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,622 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f3102ff90>
+
+2017-12-09 15:14:15,635 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,636 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb210>
+
+2017-12-09 15:14:15,718 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,720 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb410>
+
+2017-12-09 15:14:15,768 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,769 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5e50>
+
+2017-12-09 15:14:15,802 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:15,804 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5850>
+
+2017-12-09 15:14:16,380 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:28,931 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:14:28,956 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"aacc73fd96f1ff50d43af910defbcb23","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:14:29,213 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,214 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5c10>
+
+2017-12-09 15:14:29,519 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,520 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880f50>
+
+2017-12-09 15:14:29,523 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,524 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880b90>
+
+2017-12-09 15:14:29,526 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,528 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891f90>
+
+2017-12-09 15:14:29,530 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,531 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300311d0>
+
+2017-12-09 15:14:29,858 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:29,859 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880b90>
+
+2017-12-09 15:14:32,203 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:32,205 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308806d0>
+
+2017-12-09 15:14:32,358 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'aacc73fd96f1ff50d43af910defbcb23')]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:32,511 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:14:37,351 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:14:37,351 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:14:37,437 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:14:37,528 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23')]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:37,529 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:14:37,587 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:14:42,137 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:14:42,138 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:14:42,208 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:14:42,337 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23')]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:42,338 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:14:42,391 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:14:49,238 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:14:49,238 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:14:49,300 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:14:49,400 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'aacc73fd96f1ff50d43af910defbcb23')]), ImmutableMultiDict([])])
+
+2017-12-09 15:14:49,400 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:14:49,527 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:15:08,324 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216363'), ('token', u'aacc73fd96f1ff50d43af910defbcb23'), ('longitude', u'121.249463')])])
+
+2017-12-09 15:15:08,325 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:15:08,409 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:15:08,483 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216363'), ('lng', u'121.249463'), ('token', u'aacc73fd96f1ff50d43af910defbcb23')]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:08,484 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:15:08,563 - Response:('{"code":1800,"data":{"lat":31.219995653518,"lon":121.26049343595},"errmsg":"success"}', '\n')
+
+2017-12-09 15:15:08,878 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:13,838 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:13,840 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb210>
+
+2017-12-09 15:15:14,290 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,292 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b58d0>
+
+2017-12-09 15:15:14,295 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,296 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5f90>
+
+2017-12-09 15:15:14,299 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,300 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb210>
+
+2017-12-09 15:15:14,322 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,323 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb410>
+
+2017-12-09 15:15:14,326 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,327 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880cd0>
+
+2017-12-09 15:15:14,330 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,331 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891290>
+
+2017-12-09 15:15:14,357 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,358 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031610>
+
+2017-12-09 15:15:14,362 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,363 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031390>
+
+2017-12-09 15:15:14,365 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,366 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300317d0>
+
+2017-12-09 15:15:14,379 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,380 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300314d0>
+
+2017-12-09 15:15:14,388 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,390 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb450>
+
+2017-12-09 15:15:14,398 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,399 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cbcd0>
+
+2017-12-09 15:15:14,420 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,422 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5e10>
+
+2017-12-09 15:15:14,424 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,426 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300445d0>
+
+2017-12-09 15:15:14,429 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,430 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b5950>
+
+2017-12-09 15:15:14,446 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:14,447 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308b54d0>
+
+2017-12-09 15:15:14,456 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,421 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,422 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb210>
+
+2017-12-09 15:15:22,742 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,743 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300317d0>
+
+2017-12-09 15:15:22,746 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,747 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044e10>
+
+2017-12-09 15:15:22,750 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,751 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031c10>
+
+2017-12-09 15:15:22,942 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:22,943 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308808d0>
+
+2017-12-09 15:15:23,425 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,426 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880bd0>
+
+2017-12-09 15:15:23,428 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,430 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cbcd0>
+
+2017-12-09 15:15:23,432 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,433 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cbed0>
+
+2017-12-09 15:15:23,615 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,616 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044e10>
+
+2017-12-09 15:15:23,619 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,620 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cbbd0>
+
+2017-12-09 15:15:23,622 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,623 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880c10>
+
+2017-12-09 15:15:23,678 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,679 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880a90>
+
+2017-12-09 15:15:23,681 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,682 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880cd0>
+
+2017-12-09 15:15:23,687 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,688 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044190>
+
+2017-12-09 15:15:23,882 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:23,884 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044c10>
+
+2017-12-09 15:15:24,046 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:24,048 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f3102fed0>
+
+2017-12-09 15:15:24,054 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:24,055 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880b90>
+
+2017-12-09 15:15:24,411 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:30,861 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:15:30,866 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"1cc95a1a3f73b5b543c295aa171ea68c","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:15:31,204 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:31,205 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cbcd0>
+
+2017-12-09 15:15:31,588 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:31,589 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb850>
+
+2017-12-09 15:15:31,592 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:31,593 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880c50>
+
+2017-12-09 15:15:31,714 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:31,716 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031590>
+
+2017-12-09 15:15:31,718 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:31,719 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891210>
+
+2017-12-09 15:15:32,017 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,018 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044dd0>
+
+2017-12-09 15:15:32,021 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,022 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044d50>
+
+2017-12-09 15:15:32,025 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,026 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044690>
+
+2017-12-09 15:15:32,431 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,433 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044f90>
+
+2017-12-09 15:15:32,436 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,437 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300445d0>
+
+2017-12-09 15:15:32,439 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,440 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891210>
+
+2017-12-09 15:15:32,443 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,444 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300319d0>
+
+2017-12-09 15:15:32,506 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:32,508 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f31059c10>
+
+2017-12-09 15:15:33,193 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:33,194 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031590>
+
+2017-12-09 15:15:36,630 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:36,632 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031810>
+
+2017-12-09 15:15:36,835 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'1cc95a1a3f73b5b543c295aa171ea68c')]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:36,992 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:15:37,180 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216339'), ('token', u'1cc95a1a3f73b5b543c295aa171ea68c'), ('longitude', u'121.249465')])])
+
+2017-12-09 15:15:37,181 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:15:37,249 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:15:37,311 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216339'), ('lng', u'121.249465'), ('token', u'1cc95a1a3f73b5b543c295aa171ea68c')]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:37,311 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:15:37,371 - Response:('{"code":1800,"data":{"lat":31.219968750682,"lon":121.26050047976},"errmsg":"success"}', '\n')
+
+2017-12-09 15:15:42,024 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,025 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031c10>
+
+2017-12-09 15:15:42,132 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,133 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880f90>
+
+2017-12-09 15:15:42,136 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,137 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031c50>
+
+2017-12-09 15:15:42,290 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,291 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031590>
+
+2017-12-09 15:15:42,294 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,295 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300311d0>
+
+2017-12-09 15:15:42,372 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,373 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044290>
+
+2017-12-09 15:15:42,747 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,748 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880bd0>
+
+2017-12-09 15:15:42,751 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,752 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f2baf7ad0>
+
+2017-12-09 15:15:42,811 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:42,813 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044f10>
+
+2017-12-09 15:15:43,084 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,086 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044850>
+
+2017-12-09 15:15:43,131 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,132 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044890>
+
+2017-12-09 15:15:43,135 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,136 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044d50>
+
+2017-12-09 15:15:43,139 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,140 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031450>
+
+2017-12-09 15:15:43,151 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,152 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f3102fed0>
+
+2017-12-09 15:15:43,193 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,195 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031610>
+
+2017-12-09 15:15:43,200 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,202 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031690>
+
+2017-12-09 15:15:43,205 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:15:43,206 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891e90>
+
+2017-12-09 15:15:44,113 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,382 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,383 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:16:18,440 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,441 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044550>
+
+2017-12-09 15:16:18,640 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,642 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880b90>
+
+2017-12-09 15:16:18,649 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,651 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30891150>
+
+2017-12-09 15:16:18,798 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,800 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031c50>
+
+2017-12-09 15:16:18,802 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:18,803 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031250>
+
+2017-12-09 15:16:19,076 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,077 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044e90>
+
+2017-12-09 15:16:19,080 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,081 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044d50>
+
+2017-12-09 15:16:19,083 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,085 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044950>
+
+2017-12-09 15:16:19,400 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,404 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031610>
+
+2017-12-09 15:16:19,406 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,407 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880c10>
+
+2017-12-09 15:16:19,410 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,411 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308809d0>
+
+2017-12-09 15:16:19,413 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,414 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044a50>
+
+2017-12-09 15:16:19,486 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,487 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044710>
+
+2017-12-09 15:16:19,490 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,491 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044d90>
+
+2017-12-09 15:16:19,493 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,494 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300449d0>
+
+2017-12-09 15:16:19,593 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,594 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044690>
+
+2017-12-09 15:16:19,636 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:19,637 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30880890>
+
+2017-12-09 15:16:20,460 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,194 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:16:47,201 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"c2886ba4b746900f8caa90e953acfd54","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:16:47,456 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,458 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb910>
+
+2017-12-09 15:16:47,721 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,722 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb890>
+
+2017-12-09 15:16:47,758 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,760 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f308cb4d0>
+
+2017-12-09 15:16:47,778 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,779 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044610>
+
+2017-12-09 15:16:47,782 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:47,783 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f300445d0>
+
+2017-12-09 15:16:48,394 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:48,395 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30044c90>
+
+2017-12-09 15:16:54,196 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:54,198 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f7f30031410>
+
+2017-12-09 15:16:54,388 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'c2886ba4b746900f8caa90e953acfd54')]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:54,491 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:16:58,565 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'c2886ba4b746900f8caa90e953acfd54'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:16:58,566 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:16:58,643 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:16:58,730 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'c2886ba4b746900f8caa90e953acfd54')]), ImmutableMultiDict([])])
+
+2017-12-09 15:16:58,731 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:16:58,797 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:18:56,188 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,189 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:18:56,352 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,359 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f69674bdb10>
+
+2017-12-09 15:18:56,489 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,490 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f69674bdb90>
+
+2017-12-09 15:18:56,499 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,500 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b150>
+
+2017-12-09 15:18:56,621 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,622 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f69674bdd90>
+
+2017-12-09 15:18:56,624 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:56,626 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b690>
+
+2017-12-09 15:18:57,257 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,258 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b7d0>
+
+2017-12-09 15:18:57,260 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,262 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b310>
+
+2017-12-09 15:18:57,264 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,265 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d220d0>
+
+2017-12-09 15:18:57,423 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,424 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b590>
+
+2017-12-09 15:18:57,426 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,427 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0bdd0>
+
+2017-12-09 15:18:57,430 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,431 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b510>
+
+2017-12-09 15:18:57,433 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,434 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b490>
+
+2017-12-09 15:18:57,484 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,485 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f69674bde10>
+
+2017-12-09 15:18:57,501 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,502 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d22350>
+
+2017-12-09 15:18:57,594 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,598 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0ba10>
+
+2017-12-09 15:18:57,617 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,618 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b910>
+
+2017-12-09 15:18:57,621 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:18:57,622 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b510>
+
+2017-12-09 15:18:58,204 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,122 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:19:10,147 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"0f59919f2903839034cea2e5464d4c29","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:19:10,401 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,402 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0b9d0>
+
+2017-12-09 15:19:10,715 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,717 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f69674bdbd0>
+
+2017-12-09 15:19:10,740 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,741 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d0bd90>
+
+2017-12-09 15:19:10,744 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,745 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d08690>
+
+2017-12-09 15:19:10,748 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:10,749 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d08ad0>
+
+2017-12-09 15:19:11,151 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:11,153 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d08850>
+
+2017-12-09 15:19:33,579 - Request: GET /upload/tender_manage/user_detail.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:33,581 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d08d50>
+
+2017-12-09 15:19:36,040 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:36,041 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f6966d08f90>
+
+2017-12-09 15:19:36,216 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'0f59919f2903839034cea2e5464d4c29')]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:36,312 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:19:39,004 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'0f59919f2903839034cea2e5464d4c29'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:19:39,005 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:19:39,265 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:19:39,384 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'0f59919f2903839034cea2e5464d4c29')]), ImmutableMultiDict([])])
+
+2017-12-09 15:19:39,385 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:19:39,442 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:25:10,823 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.2164'), ('token', u'0f59919f2903839034cea2e5464d4c29'), ('longitude', u'121.249423')])])
+
+2017-12-09 15:25:10,824 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:25:10,913 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:25:11,017 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.2164'), ('lng', u'121.249423'), ('token', u'0f59919f2903839034cea2e5464d4c29')]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:11,017 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:25:11,078 - Response:('{"code":1800,"data":{"lat":31.220031455628,"lon":121.26045026415},"errmsg":"success"}', '\n')
+
+2017-12-09 15:25:16,209 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:50,488 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:50,489 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:25:50,589 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:50,596 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507250>
+
+2017-12-09 15:25:50,767 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:50,768 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7571590>
+
+2017-12-09 15:25:50,771 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:50,772 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507310>
+
+2017-12-09 15:25:51,108 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,110 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507b90>
+
+2017-12-09 15:25:51,112 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,113 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507950>
+
+2017-12-09 15:25:51,617 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,618 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507dd0>
+
+2017-12-09 15:25:51,620 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,622 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507390>
+
+2017-12-09 15:25:51,624 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,625 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507710>
+
+2017-12-09 15:25:51,693 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,694 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7571890>
+
+2017-12-09 15:25:51,697 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,698 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515410>
+
+2017-12-09 15:25:51,700 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,702 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7571750>
+
+2017-12-09 15:25:51,706 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,707 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbafc29ffd0>
+
+2017-12-09 15:25:51,771 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,772 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507850>
+
+2017-12-09 15:25:51,774 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,775 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507810>
+
+2017-12-09 15:25:51,816 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,818 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515ad0>
+
+2017-12-09 15:25:51,835 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,836 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515690>
+
+2017-12-09 15:25:51,848 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:25:51,849 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515450>
+
+2017-12-09 15:25:52,711 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,111 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:26:04,117 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"d601c9a0249fbde57e0f0709412baa56","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:26:04,422 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,423 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507ad0>
+
+2017-12-09 15:26:04,809 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,811 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515290>
+
+2017-12-09 15:26:04,822 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,823 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515a50>
+
+2017-12-09 15:26:04,826 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,827 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7515e90>
+
+2017-12-09 15:26:04,829 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:04,830 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507950>
+
+2017-12-09 15:26:05,086 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:05,087 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf7507a90>
+
+2017-12-09 15:26:17,618 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:17,619 - Response:<werkzeug.wsgi.FileWrapper object at 0x7fbaf75281d0>
+
+2017-12-09 15:26:17,793 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'd601c9a0249fbde57e0f0709412baa56')]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:17,943 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:26:24,533 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'd601c9a0249fbde57e0f0709412baa56'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:26:24,534 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:26:24,600 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:26:46,698 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'd601c9a0249fbde57e0f0709412baa56')]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:46,699 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:26:46,765 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:26:46,775 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216417'), ('token', u'd601c9a0249fbde57e0f0709412baa56'), ('longitude', u'121.249423')])])
+
+2017-12-09 15:26:46,776 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:26:46,843 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:26:48,554 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216417'), ('lng', u'121.249423'), ('token', u'd601c9a0249fbde57e0f0709412baa56')]), ImmutableMultiDict([])])
+
+2017-12-09 15:26:48,555 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:26:48,622 - Response:('{"code":1800,"data":{"lat":31.220049874245,"lon":121.26045543992},"errmsg":"success"}', '\n')
+
+2017-12-09 15:26:58,076 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216418'), ('token', u'd601c9a0249fbde57e0f0709412baa56'), ('longitude', u'121.249424')])])
+
+2017-12-09 15:26:58,077 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:26:58,149 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:27:02,819 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216418'), ('lng', u'121.249424'), ('token', u'd601c9a0249fbde57e0f0709412baa56')]), ImmutableMultiDict([])])
+
+2017-12-09 15:27:02,820 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:27:02,884 - Response:('{"code":1800,"data":{"lat":31.22005315788,"lon":121.26045082364},"errmsg":"success"}', '\n')
+
+2017-12-09 15:27:06,101 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216401'), ('token', u'd601c9a0249fbde57e0f0709412baa56'), ('longitude', u'121.249425')])])
+
+2017-12-09 15:27:06,102 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:27:06,170 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:30:27,979 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216401'), ('lng', u'121.249425'), ('token', u'd601c9a0249fbde57e0f0709412baa56')]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:27,980 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:30:28,049 - Response:('{"code":1800,"data":{"lat":31.220029763948,"lon":121.26046085877},"errmsg":"success"}', '\n')
+
+2017-12-09 15:30:28,055 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216362'), ('token', u'd601c9a0249fbde57e0f0709412baa56'), ('longitude', u'121.249424')])])
+
+2017-12-09 15:30:28,056 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:30:28,145 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:30:50,962 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:50,962 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:30:51,116 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,123 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13b19d50>
+
+2017-12-09 15:30:51,242 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,243 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13b19e50>
+
+2017-12-09 15:30:51,246 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,247 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13b19dd0>
+
+2017-12-09 15:30:51,366 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,367 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f1e5d7390>
+
+2017-12-09 15:30:51,369 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,371 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6110>
+
+2017-12-09 15:30:51,649 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,651 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6150>
+
+2017-12-09 15:30:51,657 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,658 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6bd0>
+
+2017-12-09 15:30:51,662 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,663 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6dd0>
+
+2017-12-09 15:30:51,785 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,787 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6e10>
+
+2017-12-09 15:30:51,789 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,790 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6890>
+
+2017-12-09 15:30:51,793 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,794 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6450>
+
+2017-12-09 15:30:51,796 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,797 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6210>
+
+2017-12-09 15:30:51,848 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,850 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6a10>
+
+2017-12-09 15:30:51,893 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,894 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aba490>
+
+2017-12-09 15:30:51,917 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,918 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13b19e10>
+
+2017-12-09 15:30:51,958 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,959 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6a10>
+
+2017-12-09 15:30:51,987 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:30:51,989 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa69d0>
+
+2017-12-09 15:30:53,153 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:06,976 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:31:06,981 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"38f58922e0ca667ed62ff59ae6956f49","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:31:07,264 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:07,265 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6a10>
+
+2017-12-09 15:31:07,548 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:07,549 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13acbb90>
+
+2017-12-09 15:31:07,563 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:07,564 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13acb810>
+
+2017-12-09 15:31:07,567 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:07,568 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13acbd50>
+
+2017-12-09 15:31:12,980 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:12,981 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13acbe10>
+
+2017-12-09 15:31:13,088 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:13,089 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13acb850>
+
+2017-12-09 15:31:17,244 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:17,245 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f2f13aa6750>
+
+2017-12-09 15:31:17,405 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'38f58922e0ca667ed62ff59ae6956f49')]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:17,502 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:31:20,395 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'38f58922e0ca667ed62ff59ae6956f49'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:31:20,395 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:31:20,477 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:31:26,817 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'38f58922e0ca667ed62ff59ae6956f49')]), ImmutableMultiDict([])])
+
+2017-12-09 15:31:26,818 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:31:26,892 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:31:26,899 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'38f58922e0ca667ed62ff59ae6956f49'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:31:26,899 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:31:26,964 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:34:45,007 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,008 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://120.27.110.143:3000/upload/tender_manage/index.html">http://120.27.110.143:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2017-12-09 15:34:45,087 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,093 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246ccaeb10>
+
+2017-12-09 15:34:45,227 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,228 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246ccaeb90>
+
+2017-12-09 15:34:45,386 - Request: GET /upload/tender_manage/others/login_texiao/css/index_style.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,388 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc150>
+
+2017-12-09 15:34:45,390 - Request: GET /upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,391 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246ccaed90>
+
+2017-12-09 15:34:45,394 - Request: GET /upload/tender_manage/others/jquery/jquery-3.1.1.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:45,395 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc4d0>
+
+2017-12-09 15:34:46,164 - Request: GET /upload/tender_manage/others/jquery/jquery.cookie.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,165 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc7d0>
+
+2017-12-09 15:34:46,168 - Request: GET /upload/tender_manage/others/jquery/jquery_color.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,169 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc690>
+
+2017-12-09 15:34:46,171 - Request: GET /upload/tender_manage/others/bootstrap/dist/js/bootstrap.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,172 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c5130d0>
+
+2017-12-09 15:34:46,234 - Request: GET /upload/tender_manage/others/jquery/jquery.validate.min.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,236 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc590>
+
+2017-12-09 15:34:46,238 - Request: GET /upload/tender_manage/others/jquery/jquery_md5.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,239 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fcdd0>
+
+2017-12-09 15:34:46,251 - Request: GET /upload/tender_manage/others/login_texiao/js/texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,252 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc510>
+
+2017-12-09 15:34:46,257 - Request: GET /upload/tender_manage/css/login.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,259 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc450>
+
+2017-12-09 15:34:46,312 - Request: GET /upload/tender_manage/js/public.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,314 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246ccaee10>
+
+2017-12-09 15:34:46,324 - Request: GET /upload/tender_manage/js/login_texiao.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,326 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c513350>
+
+2017-12-09 15:34:46,328 - Request: GET /upload/tender_manage/js/register.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,329 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fca10>
+
+2017-12-09 15:34:46,412 - Request: GET /upload/tender_manage/js/login.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,413 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc8d0>
+
+2017-12-09 15:34:46,425 - Request: GET /upload/tender_manage/js/forget.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:46,426 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc510>
+
+2017-12-09 15:34:46,882 - Request: GET /upload/tender_manage/others/login_texiao/css/Musi1c.mp3 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:59,437 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'5@qq.com')])])
+
+2017-12-09 15:34:59,461 - Response:('{"code":1800,"data":{"create_time":"Thu, 07 Dec 2017 11:03:22 GMT","email":"5@qq.com","id":19,"password":"b68f1671a3f6e9d2cb8f4475227e8c54","photo_url":null,"role_type":2,"token":"008efb26bd60ca62a50c2865e20d45ca","update_time":"Fri, 08 Dec 2017 11:08:38 GMT","user_department":"4","user_no":"5","username":"\\u8f93\\u5165\\u90ae\\u7bb1"},"errmsg":"success"}', '\n')
+
+2017-12-09 15:34:59,703 - Request: GET /upload/tender_manage/main.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:34:59,705 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fc9d0>
+
+2017-12-09 15:35:00,006 - Request: GET /upload/tender_manage/others/form_judge/jquery.slider.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:00,007 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246ccaec10>
+
+2017-12-09 15:35:00,018 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:00,019 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4fcd90>
+
+2017-12-09 15:35:00,021 - Request: GET /upload/tender_manage/others/on_off_open/lc_switch.js CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:00,022 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4f9690>
+
+2017-12-09 15:35:00,025 - Request: GET /upload/tender_manage/css/user_detail.css CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:00,026 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4f9ad0>
+
+2017-12-09 15:35:00,318 - Request: GET /upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:00,319 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4f9850>
+
+2017-12-09 15:35:09,372 - Request: GET /upload/tender_manage/check_work.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:09,373 - Response:<werkzeug.wsgi.FileWrapper object at 0x7f246c4f9d50>
+
+2017-12-09 15:35:10,557 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:10,668 - Response:('{"code":1800,"data":{"fence_id":4,"latitude":31.220302,"longitude":121.260468,"radius":100},"errmsg":"success"}', '\n')
+
+2017-12-09 15:35:13,790 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'5e-324'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'5e-324')])])
+
+2017-12-09 15:35:13,791 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:35:13,853 - Response:('{"code":1800,"data":"{\\"status\\":2,\\"message\\":\\"latitude:\\u5fc5\\u987b\\u662f\\u5c0f\\u6570;\\u6700\\u5c0f\\u503c\\u662f-90;\\u6700\\u5927\\u503c\\u662f90\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:35:27,536 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'5e-324'), ('lng', u'5e-324'), ('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:27,537 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:35:27,595 - Response:('{"code":1813,"data":null,"errmsg":"token expire!"}', '\n')
+
+2017-12-09 15:35:27,602 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216347'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'121.249435')])])
+
+2017-12-09 15:35:27,603 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:35:27,685 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:35:31,829 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216347'), ('lng', u'121.249435'), ('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:31,830 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:35:31,906 - Response:('{"code":1800,"data":{"lat":31.219984167631,"lon":121.26046327006},"errmsg":"success"}', '\n')
+
+2017-12-09 15:35:35,545 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216344'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'121.249435')])])
+
+2017-12-09 15:35:35,546 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:35:35,617 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:35:57,490 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216344'), ('lng', u'121.249435'), ('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:35:57,491 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:35:57,569 - Response:('{"code":1800,"data":{"lat":31.219981186386,"lon":121.26046272446},"errmsg":"success"}', '\n')
+
+2017-12-09 15:35:57,576 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216342'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'121.249434')])])
+
+2017-12-09 15:35:57,576 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:35:57,680 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:36:02,170 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216342'), ('lng', u'121.249434'), ('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:36:02,171 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:36:02,246 - Response:('{"code":1800,"data":{"lat":31.219975447875,"lon":121.2604695124},"errmsg":"success"}', '\n')
+
+2017-12-09 15:36:05,566 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216342'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'121.249434')])])
+
+2017-12-09 15:36:05,567 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:36:05,634 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2017-12-09 15:36:08,827 - Request: GET /carrier/geoconv CombinedMultiDict([ImmutableMultiDict([('lat', u'31.216342'), ('lng', u'121.249434'), ('token', u'008efb26bd60ca62a50c2865e20d45ca')]), ImmutableMultiDict([])])
+
+2017-12-09 15:36:08,827 - client: 211.95.96.166, path: /carrier/geoconv, method: GET
+
+2017-12-09 15:36:08,896 - Response:('{"code":1800,"data":{"lat":31.219974936246,"lon":121.26046434993},"errmsg":"success"}', '\n')
+
+2017-12-09 15:36:13,565 - Request: POST /carrier/up_map CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('latitude', u'31.216342'), ('token', u'008efb26bd60ca62a50c2865e20d45ca'), ('longitude', u'121.249434')])])
+
+2017-12-09 15:36:13,566 - client: 211.95.96.166, path: /carrier/up_map, method: POST
+
+2017-12-09 15:36:13,637 - Response:('{"code":1800,"data":"{\\"status\\":0,\\"message\\":\\"\\u6210\\u529f\\"}","errmsg":"success"}', '\n')
+
+2018-01-03 13:53:20,079 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2018-01-03 13:53:20,081 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://172.16.72.37:3000/upload/tender_manage/index.html">http://172.16.72.37:3000/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2018-01-03 13:53:20,101 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2018-01-03 13:53:20,104 - Unhandled Exception: [Errno 2] No such file or directory: u'/home/rgc/baidu_eye/carrier/upload/tender_manage/index.html'
+
+2018-01-03 13:53:20,105 - Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask_debugtoolbar/__init__.py", line 125, in dispatch_request
+    return view_func(**req.view_args)
+  File "/usr/lib/python2.7/cProfile.py", line 149, in runcall
+    return func(*args, **kw)
+  File "/home/rgc/baidu_eye/carrier/service/decorator.py", line 31, in decorator
+    func_return = f(*args, **kwargs)
+  File "/home/rgc/baidu_eye/carrier/auth/views.py", line 264, in send_file
+    return send_from_directory('upload/', path)
+  File "/usr/local/lib/python2.7/dist-packages/flask/helpers.py", line 616, in send_from_directory
+    return send_file(filename, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/helpers.py", line 520, in send_file
+    file = open(filename, 'rb')
+IOError: [Errno 2] No such file or directory: u'/home/rgc/baidu_eye/carrier/upload/tender_manage/index.html'
+
+

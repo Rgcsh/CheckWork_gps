@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="others/form_judge/jquery.slider.css" />
+		<script src="others/jquery/jquery-3.1.1.js"></script>
+		<script src="others/form_judge/jquery.slider.min.js"></script>
+		<script>
+		$(function(){
+			$("#slider1").slider({
+				callback: function(result) {
+					$("#result1").text(result);
+				}
+			});
+			// 还原
+			$("#reset1").click(function() {
+				$("#slider1").slider("restore");
+			});
+		})
+
+		</script>
+	</head>
+
+	<body>
+		<div class="demo1">
+			<div class="btns">
+				<button id="reset1">还原</button>
+			</div>
+			<div id="slider1" class="slider">
+				<div class="ui-slider-wrap" style="width: 300px; height: 34px; background-color: rgb(232, 232, 232);">
+					<div class="ui-slider-text ui-slider-no-select" style="line-height: 34px; font-size: 12px; color: rgb(102, 102, 102);">请按住滑块，拖动到最右边</div>
+					<div class="ui-slider-btn init ui-slider-no-select" style="width: 34px; height: 34px; line-height: 34px;"></div>
+					<div class="ui-slider-bg" style="height: 34px; background-color: rgb(122, 194, 60);"></div>
+				</div>
+			</div>
+			<div class="result">验证结果：<span id="result1"></span></div>
+		</div>
+	</body>
+
+</html>

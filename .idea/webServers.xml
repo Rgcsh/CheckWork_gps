@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="20f6d424-ff8f-4b1a-a98b-79c827a65d36" name="rgc" url="http://120.27.110.143">
+        <fileTransfer host="120.27.110.143" port="8100" rootFolder="/home/rgc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="8100" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

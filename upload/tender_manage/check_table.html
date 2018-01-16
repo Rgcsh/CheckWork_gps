@@ -1,0 +1,452 @@
+<style type="text/css">
+    .two_word_spacing {
+        letter-spacing: 28px;
+    }
+
+    .four_word_saping {
+        margin-right: 28px;
+    }
+
+    .check_table_search_div {
+        background-color: #fff;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 1%;
+        border: 1px solid #a8a3a3;
+    }
+
+    .check_table_search_div div div {
+        margin-top: 20px;
+    }
+
+    .check_table_result_div {
+        background-color: #fff;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 1%;
+        border: 1px solid #a8a3a3;
+    }
+
+    .page_group span {
+        padding: 5px;
+    }
+
+    #check_table_search_button {
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    /*th,td{*/
+    /*align: center;*/
+    /*}*/
+</style>
+<link rel="stylesheet" type="text/css" href="css/public.css"/>
+<div class="container-fluid check_table_search_div">
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <span class="two_word_spacing">姓名</span>
+            <input type="text" id="check_table_search_name"/>
+            <label style="color: orangered;"></label>
+        </div>
+        <div class="col-md-4 column">
+            <span class="two_word_spacing">工号</span>
+            <input type="text" id="check_table_search_num"/>
+            <label style="color: orangered;"></label>
+        </div>
+        <div class="col-md-4 column">
+            <span class="two_word_spacing">部门</span>
+            <input type="text" id="check_table_search_depart"/>
+            <label style="color: orangered;"></label>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <span class="two_word_spacing">邮箱</span>
+            <input type="text" id="check_table_search_email"/>
+            <label style="color: orangered;"></label>
+        </div>
+
+        <div class="col-md-4 column">
+            <span class="four_word_saping">开始日期</span>
+            <input id="check_table_search_starttime"
+                   onclick="WdatePicker({maxDate:'#F{$dp.$D(\'check_table_search_endtime\')||\'%y-%M-%d\'}'})"
+                   type="text">
+            <label style="color: orangered;"></label>
+        </div>
+        <div class="col-md-4 column">
+            <span class="four_word_saping">结束日期</span>
+            <input id="check_table_search_endtime"
+                   onclick="WdatePicker({minDate:'#F{$dp.$D(\'check_table_search_starttime\')}',maxDate:'%y-%M-%d'})"
+                   type="text">
+            <label style="color: orangered;"></label>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <button type="button" style="float: left" id="export_excel" class="btn btn-info btn-default">导出excel
+            </button>
+            <button type="button" id="check_table_search_button" class="btn btn-info btn-default">搜索</button>
+            <label style="color: orangered;margin-left: 10px;margin-top: 8px;"></label>
+        </div>
+    </div>
+</div>
+<div class="container-fluid check_table_result_div">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <table class="table table-hover table-condensed table-bordered" style="margin-top: 10px;">
+                <thead style="background-color:#eeeeee;">
+                <tr>
+                    <th style="text-align:center;">
+                        姓名
+                    </th>
+                    <th style="text-align:center;">
+                        部门
+                    </th>
+                    <th style="text-align:center;">
+                        工号
+                    </th>
+                    <th style="text-align:center;">
+                        邮箱
+                    </th>
+                    <th style="text-align:center;">
+                        功能
+                    </th>
+                </tr>
+                </thead>
+                <tbody style="background-color: #fafafa;" id="search_result_body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-6 column" style="float: left;">
+            共<span id="check_table_result_count"></span>条记录,共<span id="all_page_size"></span>页
+        </div>
+        <div class="col-md-6 column">
+            <div style="float: right;margin-bottom: 8px;" class="page_group">
+				<span class="hander" id="first_page">
+					首页
+				</span>|
+                <span class="hander" id="before_page">
+					上一页
+				</span>|
+                <span>第<span id="this_page"></span>页</span>|
+                <span>
+					跳到第<input type="text" name="page_groun_num" id="page_groun_num" style="width: 25px;"/>页
+				</span>|
+                <span class="hander" id="next_page">
+					下一页
+				</span>|
+                <span class="hander" id="lasted_page">
+					尾页
+				</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row clearfix result_user_detail_div" style="background-color: #fff;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    border: 1px solid #a8a3a3;
+    height: auto;display: none">
+    <div class="col-md-12 column">
+        <table class="table table-hover table-condensed table-bordered" style="margin-top: 10px;">
+            <thead style="background-color:#eeeeee;">
+            <tr>
+                <th style="text-align:center;">
+                    日期
+                </th>
+                <th style="text-align:center;">
+                    上班时间
+                </th>
+                <th style="text-align:center;">
+                    下班时间
+                </th>
+            </tr>
+            </thead>
+            <tbody style="background-color: #fafafa;" id="search_user_detail">
+
+            </tbody>
+        </table>
+        <div>
+            <p id="user_detail_back" class="hander">返回</p>
+            <label style="color: orangered;"></label>
+        </div>
+
+    </div>
+</div>
+<script src="others/My97DatePicker/WdatePicker.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(function () {
+        function set_page_size(page_size) {
+            $('#this_page').attr('page_size', page_size)
+        }
+
+        function hide_text(){
+            hide_popover('#check_table_search_name', '')
+            hide_popover('#check_table_search_num', '')
+            hide_popover('#check_table_search_depart', '')
+            hide_popover('#check_table_search_email', '')
+            hide_popover('#check_table_search_button', '')
+            hide_popover('#check_table_search_starttime', '')
+            hide_popover('#check_table_search_endtime', '')
+            hide_popover('#user_detail_back', '')
+        }
+
+        function search_user_list(page_index) {
+            hide_text()
+            var check_table_search_name = $('#check_table_search_name').val();
+            var check_table_search_num = $('#check_table_search_num').val();
+            var check_table_search_depart = $('#check_table_search_depart').val();
+            var check_table_search_email = $('#check_table_search_email').val();
+            if (check_table_search_name != '' && /^[\u4e00-\u9fa5A-Za-z]+$/.test(check_table_search_name) == false) {
+                hide_popover('#check_table_search_name', '输入汉字或英文')
+            } else if (check_table_search_num != '' && /^[0-9]+$/.test(check_table_search_num) == false) {
+                hide_popover('#check_table_search_num', '输入数字')
+            } else if (check_table_search_depart != '' && /^[\u4e00-\u9fa5A-Za-z]+$/.test(check_table_search_depart) == false) {
+                hide_popover('#check_table_search_depart', '输入汉字或英文')
+            } else if (check_table_search_email != '' && /^\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,50}$/.test(check_table_search_email) == false) {
+                 hide_popover('#check_table_search_email', '输入邮箱')
+            } else {
+                //搜索用户列表接口
+                $.ajax({
+                    url: serverUrl_carrier + "user_list",
+                    type: 'get',
+                    dataType: "json",
+                    data: {
+                        name: check_table_search_name,
+                        num: check_table_search_num,
+                        depart: check_table_search_depart,
+                        email: check_table_search_email,
+                        page_index: page_index,
+                        token: $.cookie('token')
+                    },
+                    success: function (data) {
+                        if (data.code == 1800) {
+                            var result_data = data.data
+                            $('#check_table_result_count').text(data.count)
+                            $('#all_page_size').text(Math.ceil(parseInt(data.count) / 15))
+                            $('#this_page').text($('#this_page').attr('page_size'))
+                            $('#search_result_body').empty();
+                            for (var i = 0; i < result_data.length; i++) {
+                                var check_result_name = result_data[i].check_result_name;
+                                var check_result_depart = result_data[i].check_result_depart;
+                                var check_result_num = result_data[i].check_result_num;
+                                var check_result_email = result_data[i].check_result_email;
+                                var check_result_user_id = result_data[i].user_id;
+                                var str = '<tr><td align="center">' +
+                                    check_result_name +
+                                    '</td><td align="center">' +
+                                    check_result_depart +
+                                    '</td><td align="center">' +
+                                    check_result_num +
+                                    '</td><td align="center">' +
+                                    check_result_email +
+                                    '</td><td align="center" class="hander check_result_search" user_no="' + check_result_user_id + '">' +
+                                    '<span>查看</span><label style="color: orangered;"></label></td></tr>'
+                                $('#search_result_body').append(str);
+                            }
+                        } else if (data.code == 1808) {
+                            hide_popover('#check_table_search_button', '没有数据')
+                        } else if (data.code == 1815 || data.code == 1816 || data.code == 1831) {
+                            //查询围栏出错
+                            hide_popover('#check_table_search_button', '请求数据格式错误' + data.code)
+                        } else {
+                            hide_popover('#check_table_search_button', '其他错误,请联系管理员')
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus)
+                        hide_popover('#check_table_search_button', '程序错误,请联系管理员')
+                    }
+                });
+            }
+        }
+
+        $('#check_table_search_button').on('click', function () {
+                search_user_list(1)
+                set_page_size(1)
+        })
+
+
+        $('#first_page').on('click', function () {
+            if ($('#this_page').text() != '1') {
+                search_user_list(1)
+                set_page_size(1)
+            }
+        })
+
+        $('#lasted_page').on('click', function () {
+            var page_size = $('#all_page_size').text();
+            if ($('#this_page').text() != page_size) {
+                search_user_list(page_size)
+                set_page_size(page_size)
+            }
+        })
+
+        $('#before_page').on('click', function () {
+            var page_size = parseInt($('#this_page').text());
+            if (page_size - 1 <= 0) {
+                var true_size = page_size
+            } else {
+                var true_size = page_size - 1
+            }
+            if ($('#this_page').text() != true_size) {
+                search_user_list(true_size)
+                set_page_size(true_size)
+            }
+        })
+
+        $('#next_page').on('click', function () {
+            var page_size = $('#all_page_size').text();
+            var this_page = parseInt($('#this_page').text());
+            if (this_page + 1 >= page_size) {
+                var true_size = this_page
+            } else {
+                var true_size = this_page + 1
+            }
+            if ($('#this_page').text() != true_size) {
+                search_user_list(true_size)
+                set_page_size(true_size)
+            }
+        })
+
+        $('#page_groun_num').on('blur', function () {
+            var all_page_size = parseInt($('#all_page_size').text())
+            var page_size = parseInt($(this).val());
+            if (page_size != NaN && page_size <= all_page_size && page_size >= 1 && $('#this_page').text() != page_size) {
+                    search_user_list(page_size)
+                    set_page_size(page_size)
+            }
+        })
+
+//        查看详情
+        $('body').delegate('.check_result_search', 'click', function () {
+            hide_text()
+            var user_no = $(this).attr('user_no');
+            var start_time = $('#check_table_search_starttime').val();
+            var end_time = $('#check_table_search_endtime').val();
+            if (start_time == '') {
+                hide_popover('#check_table_search_starttime', '输入开始日期')
+            } else if(end_time == ''){
+                hide_popover('#check_table_search_endtime', '输入结束日期')
+            }
+            else {
+                $.ajax({
+                    url: serverUrl_carrier + "check_work_detail",
+                    type: 'get',
+                    dataType: "json",
+                    data: {
+                        user_no: user_no,
+                        start_time: start_time,
+                        end_time: end_time,
+                        token: $.cookie('token')
+                    },
+                    success: function (data) {
+                        $('#search_user_detail').empty();
+//                            change table
+                            $('.check_table_search_div').hide()
+                            $('.check_table_result_div').hide()
+                            $('.result_user_detail_div').show()
+                        if (data.code == 1800) {
+
+                            var result_data = data.data
+                            console.log(result_data)
+                            $('#check_table_result_count').text(data.count)
+                            for (var i = 0; i < result_data.length; i++) {
+                                var date = result_data[i].date;
+                                var start_time = result_data[i].start_time;
+                                var end_time = result_data[i].end_time;
+                                var str = '<tr><td align="center">' +
+                                    date +
+                                    '</td><td align="center">' +
+                                    start_time +
+                                    '</td><td align="center">' +
+                                    end_time +
+                                    '</td></tr>'
+                                $('#search_user_detail').append(str);
+                            }
+                        } else if (data.code == 1808) {
+                            hide_popover('#user_detail_back', '没有数据')
+
+                        } else if (data.code == 1815 || data.code == 1816 || data.code == 1831) {
+                            //查询围栏出错
+                             hide_popover('#user_detail_back', '数据格式错误' + data.code)
+                        } else {
+                            hide_popover('#user_detail_back', '其他错误')
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus)
+                        hide_popover('#user_detail_back', '程序错误')
+                    }
+                });
+            }
+        })
+
+        //export excel
+        $('#export_excel').on('click', function () {
+            hide_text()
+            var check_table_search_name = $('#check_table_search_name').val();
+            var check_table_search_num = $('#check_table_search_num').val();
+            var check_table_search_depart = $('#check_table_search_depart').val();
+            var check_table_search_email = $('#check_table_search_email').val();
+            var start_time = $('#check_table_search_starttime').val();
+            var end_time = $('#check_table_search_endtime').val();
+            if (start_time == '') {
+                hide_popover('#check_table_search_starttime', '输入开始日期')
+            } else if(end_time == ''){
+                hide_popover('#check_table_search_endtime', '输入结束日期')
+            } else if (check_table_search_name != '' && /^[\u4e00-\u9fa5A-Za-z]+$/.test(check_table_search_name) == false) {
+                hide_popover('#check_table_search_name', '输入汉字或英文')
+            } else if (check_table_search_num != '' && /^[0-9]+$/.test(check_table_search_num) == false) {
+                hide_popover('#check_table_search_num', '输入数字')
+            } else if (check_table_search_depart != '' && /^[\u4e00-\u9fa5A-Za-z]+$/.test(check_table_search_depart) == false) {
+                hide_popover('#check_table_search_depart', '输入汉字或英文')
+            } else if (check_table_search_email != '' && /^\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,50}$/.test(check_table_search_email) == false) {
+                hide_popover('#check_table_search_email', '输入邮箱')
+            } else {
+                $.ajax({
+                    url: serverUrl_carrier + "export",
+                    type: 'get',
+                    dataType: "json",
+                    data: {
+                        name: check_table_search_name,
+                        num: check_table_search_num,
+                        user_id: '',
+                        depart: check_table_search_depart,
+                        email: check_table_search_email,
+                        start_date: start_time,
+                        end_date: end_time,
+                        token: $.cookie('token')
+                    },
+                    success: function (data) {
+                        if (data.code == 1800) {
+                            window.location.href = data.data
+                        } else if (data.code == 1808) {
+                            hide_popover('#check_table_search_button', '没有数据')
+                        } else if (data.code == 1815 || data.code == 1816 || data.code == 1831) {
+                            //查询围栏出错
+                            hide_popover('#check_table_search_button', '请求数据格式错误' + data.code)
+                        } else {
+                            hide_popover('#check_table_search_button', '其他错误,请联系管理员')
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus)
+                        hide_popover('#check_table_search_button', '程序错误,请联系管理员')
+                    }
+                });
+            }
+        })
+
+        $('body').delegate('#user_detail_back', 'click', function () {
+            $('.result_user_detail_div').hide()
+            $('.check_table_search_div').show()
+            $('.check_table_result_div').show()
+        })
+    })
+</script>
