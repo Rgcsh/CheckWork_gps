@@ -1,12 +1,9 @@
-import datetime
 import os
-
-from flask.ext.migrate import Migrate, MigrateCommand
-from flask.ext.script import Manager, Shell
-
-from carrier import db, create_app
 from carrier.models import User
-
+from carrier import db, create_app
+from flask.ext.script import Manager, Shell
+from flask.ext.migrate import Migrate, MigrateCommand
+import datetime
 app = create_app(os.getenv('FLASK_CONFIG') or 'kai')
 # app = create_app(os.getenv('FLASK_CONFIG') or 'dev')
 

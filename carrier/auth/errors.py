@@ -1,11 +1,10 @@
 # -*- coding:utf-8 -*-
 import traceback
-
 import sqlalchemy.exc
-
-from carrier import constant as cs
 from carrier.info import logger
 from carrier.service.public_service import resq_wrapper as rw
+from carrier import constant as cs
+
 from . import auth
 from .. import db
 

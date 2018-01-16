@@ -1,0 +1,6 @@
+.hander{
+	cursor:pointer;
+}
+.hander:active{
+	color: blue;
+}

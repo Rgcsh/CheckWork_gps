@@ -4,24 +4,25 @@ import hashlib
 import json
 import os
 import random
+
+import re
+import requests
 import sys
 import time
-
-import requests
 import xlwt
 from flask import request, jsonify, g, send_from_directory, url_for, redirect, \
     current_app
 
-import carrier.constant as cs
-from carrier import db, redis_store
-from carrier.auth import auth
-from carrier.models import User, Check_work
 from carrier.service.decorator import request_info, v_login, v_normal_role, v_manager_role
 from carrier.service.public_service import gen_two_password, gen_random_password, \
-    try_check_request_data, gen_one_password, v_file, distance, set_style, get_date_list, \
+    try_check_request_data, gen_one_password, v_file, distance, set_style, string_to_json, get_date_list, \
     get_today_date, get_today_time, change_email_str, is_none
-from carrier.service.public_service import request_data, db_commit_all, sm
+from carrier.models import User, Check_work
+from carrier import db, redis_store
+from carrier.auth import auth
+from carrier.service.public_service import request_data, db_commit_all, return_role_list, sm
 from carrier.service.public_service import resq_wrapper as rw
+import carrier.constant as cs
 
 reload(sys)
 sys.setdefaultencoding('utf-8')

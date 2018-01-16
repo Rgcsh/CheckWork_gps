@@ -4,10 +4,15 @@ __version__ = '0.1'
 __author__ = 'RGC'
 __date__ = '2017-11-07'
 
-import datetime
 
+import hashlib
+import time
+import json
+from sqlalchemy import UniqueConstraint
+from sqlalchemy.sql import text
+from sqlalchemy.dialects.mysql import TINYINT
 from . import db
-
+import datetime
 
 #用户表
 class User(db.Model):

@@ -1,0 +1,285 @@
+<style type="text/css">
+	#search_map {
+		margin-left: 5%;
+		margin-top: 5%;
+		z-index: 4;
+		position: relative;
+		width: 20%;
+	}
+	
+	#allmap {
+		width: 94%;
+		height: 85%;
+		box-shadow: 1px 1px 5px;
+		margin-top: -11%;
+		margin-left: 4%;
+	}
+</style>
+<div id="search_map">
+	<div class="input-group" style="">
+		<input type="text" id="search_name" class="form-control" placeholder="输入地点">
+		<span class="input-group-btn">
+        	<button class="btn btn-default" type="button" id="search_button">搜索</button>
+			<span style="color: orangered"></span>
+     	</span>
+	</div>
+	<div style="margin-top: 5px;margin-bottom: 5px;">
+		<input type="text" id="fence_size" class="form-control" placeholder="围栏半径,默认500">
+	</div>
+	<button type="button" class="btn btn-info btn-default btn-block" id="submit_fence">提交围栏</button>
+</div>
+
+<div id="allmap">
+</div>
+<script type="text/javascript">
+	// 百度地图API功能
+	$(function() {
+		$('.lcs_check').lc_switch();
+		//清除覆盖物
+		function remove_overlay() {
+			map.clearOverlays();
+		}
+
+		//搜索框
+		function search_map(search_name) {
+			var local = new BMap.LocalSearch(map, {
+				renderOptions: {
+					map: map
+				}
+			});
+			local.search(search_name);
+		}
+
+		function get_fence_size() {
+			var fence_size = $('#fence_size').val()
+			if(fence_size == '') {
+				fence_size = 500
+			} else {
+				fence_size = parseInt(fence_size)
+			}
+			return fence_size
+		}
+
+		//设置点和圆
+		function set_point_circle(e) {
+			//清除覆盖物
+			remove_overlay()
+				//通过点击百度地图，可以获取到对应的point, 由point的lng、lat属性就可以获取对应的经度纬度     
+			var pt = e.point;
+			var geoc = new BMap.Geocoder();
+			geoc.getLocation(pt, function(rs) {
+				//addressComponents对象可以获取到详细的地址信息
+				var addComp = rs.addressComponents;
+				//将对应的HTML元素设置值
+				var lng = pt.lng
+				var lat = pt.lat
+				$('#submit_fence').attr({
+					"lng": lng,
+					"lat": lat
+				});
+				//创建点
+				var marker = new BMap.Marker(new BMap.Point(lng, lat));
+				//增加点
+				map.addOverlay(marker);
+				// 创建圆
+				var point = new BMap.Point(lng, lat);
+				var radius = get_fence_size()
+				var circle = new BMap.Circle(point, radius, {
+					strokeColor: "red",
+					strokeWeight: 1,
+					strokeOpacity: 0.5
+				});
+				map.addOverlay(circle);
+			});
+		}
+
+		//没有围栏时初始化地图
+		function init_map() {
+			//		定位到当前城市
+			var lc = new BMap.LocalCity();
+			lc.get(function(lcr) {
+					if(lcr) {
+						map.centerAndZoom(lcr.center, 11);
+					} else {
+					    hide_popover('#search_button', '没能获得正确地址')
+					}
+				})
+				//		地图可以用鼠标滚动缩放
+			map.enableScrollWheelZoom(true);
+		}
+
+		//点击搜索
+		$("#search_button").click(function() {
+			search_name = $('#search_name').val()
+			search_map(search_name)
+		});
+
+		//	获取两点间距离
+		//	var pointA = new BMap.Point(121.26059890691,31.220103636356); // 创建点坐标A--大渡口区
+		//	var pointB = new BMap.Point(121.26199890691,31.220103636356); // 创建点坐标B--江北区
+		//	var num = map.getDistance(pointA,pointB);
+		//	alert(num)
+
+		//提交围栏
+		$("#submit_fence").click(function() {
+			var is_have_fence = $('#submit_fence').attr("is_have_fence");
+			var lng = $('#submit_fence').attr("lng");
+			var lat = $('#submit_fence').attr("lat");
+			if(lat == 0 && lng == 0) {
+				//				没有坐标点
+				hide_popover('#search_button', '请设置围栏')
+			} else {
+				//开始判断是否创建围栏
+				if(is_have_fence == 'No') {
+					//创建围栏
+					$.ajax({
+						url: serverUrl + "fence/createcirclefence",
+						type: 'post',
+						dataType: "json",
+						data: {
+							longitude: lng,
+							latitude: lat,
+							radius: get_fence_size()
+						},
+						success: function(data) {
+							if(data.code == 1800) {
+							    hide_popover('#search_button', '围栏添加成功')
+							} else if(data.code == 1821) {
+							    hide_popover('#search_button', '围栏添加失败')
+							} else if(data.code == 1811 || data.code == 1813) {
+								//查询围栏出错
+								hide_popover('#search_button', 'token过期或没token，请重新登录;'+data.code)
+								window.location.href = serverUrl_weburl + "index.html";
+							} else if(data.code == 1803) {
+								//查询围栏出错
+								hide_popover('#search_button', '没有权限进行围栏操作')
+							} else if(data.code == 1815 || data.code == 1816 || data.code == 1831) {
+								//查询围栏出错
+								hide_popover('#search_button', '请求数据格式错误;'+data.code)
+							} else {
+							    hide_popover('#search_button', '其他错误' + data)
+							}
+						},
+						error: function(jqXHR, textStatus, errorThrown) {
+							console.log(textStatus)
+							hide_popover('#search_button', '程序错误')
+						}
+					});
+				} else {
+					//更新围栏
+					$.ajax({
+						url: serverUrl + "fence/updatecirclefence",
+						type: 'post',
+						dataType: "json",
+						data: {
+							fence_id: $('#submit_fence').attr("fence_id"),
+							longitude: lng,
+							latitude: lat,
+							radius: get_fence_size()
+						},
+						success: function(data) {
+							if(data.code == 1800) {
+							    hide_popover('#search_button', '围栏更新成功')
+							} else if(data.code == 1823) {
+                                hide_popover('#search_button', '围栏更新失败')
+							} else if(data.code == 1811 || data.code == 1813) {
+								//查询围栏出错
+                                hide_popover('#search_button', 'token过期或没有token，请重新登录;'+data.code)
+								window.location.href = serverUrl_weburl + "index.html";
+							} else if(data.code == 1803) {
+								//查询围栏出错
+                                hide_popover('#search_button', '没有权限进行围栏操作')
+							} else if(data.code == 1815 || data.code == 1816 || data.code == 1831) {
+								//查询围栏出错
+                                hide_popover('#search_button', '请求数据格式错误;'+data.code)
+							} else {
+                                hide_popover('#search_button', '其他错误')
+							}
+						},
+						error: function(jqXHR, textStatus, errorThrown) {
+							console.log(textStatus)
+                            hide_popover('#search_button', '程序错误')
+						}
+					});
+				}
+			}
+
+		});
+
+		//鼠标右键点击时，设置点和圆
+		var map = new BMap.Map("allmap");
+		map.addEventListener("rightclick", function(e) {
+			set_point_circle(e);
+		});
+		//	init_map();
+
+		//查看围栏是否已经存在
+		$.ajax({
+			url: serverUrl + "fence/list",
+			type: 'get',
+			dataType: "json",
+			data: {
+                token: $.cookie('token')
+            },
+			success: function(data) {
+				var return_data = data.data
+				if(data.code == 1800) {
+					//围栏已经存在
+					var fence_id = return_data.fence_id
+					var lng = return_data.longitude
+					var lat = return_data.latitude
+					var radius = return_data.radius
+					$('#fence_size').val(radius);
+					$('#submit_fence').attr({
+						"is_have_fence": 'Yes',
+						"lng": lng,
+						"lat": lat,
+						"fence_id": fence_id
+					});
+					var point = new BMap.Point(lng, lat);
+					map.centerAndZoom(point, 17);
+					map.enableScrollWheelZoom(true);
+					var marker = new BMap.Marker(new BMap.Point(lng, lat));
+					//增加点
+					map.addOverlay(marker);
+					// 创建圆
+					var circle = new BMap.Circle(point, radius, {
+						strokeColor: "red",
+						strokeWeight: 1,
+						strokeOpacity: 0.5
+					});
+					map.addOverlay(circle);
+
+				} else if(data.code == 1829) {
+					//没有围栏
+					init_map()
+					$('#submit_fence').attr({
+						"is_have_fence": 'No',
+						"lng": 0,
+						"lat": 0
+					});
+				} else if(data.code == 1824) {
+					//查询围栏出错
+                    hide_popover('#search_button', '查询围栏出错,请联系管理员')
+				} else if(data.code == 1811 || data.code == 1813) {
+					//查询围栏出错
+                    hide_popover('#search_button', 'token过期或没有token，请重新登录;'+data.code)
+					window.location.href = serverUrl_weburl + "index.html";
+				} else if(data.code == 1803) {
+					//查询围栏出错
+                    hide_popover('#search_button', '没有权限进行围栏操作')
+				} else if(data.code == 1815 || data.code == 1816 || data.code == 1831) {
+					//查询围栏出错
+                    hide_popover('#search_button', '请求数据格式错误;'+data.code)
+				} else {
+				    hide_popover('#search_button', '其他错误,请联系管理员')
+				}
+			},
+			error: function(jqXHR, textStatus, errorThrown) {
+				console.log(textStatus)
+                hide_popover('#search_button', '程序错误,请联系管理员')
+			}
+		});
+
+	})
+</script>

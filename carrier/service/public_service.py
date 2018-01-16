@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
-import datetime
 import hashlib
 import json
-import math
-import os
-import re
 import smtplib
+import datetime
 import string
-import time
-from email.header import Header
-from email.mime.multipart import MIMEMultipart
+import math
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.header import Header
 from random import choice
 
+import os
+
+import re
 import xlwt
 from flask import current_app, url_for
 from flask import request, jsonify
 
 from carrier import constant as cs
 from carrier import db
-from carrier.constant import ROLE_TYPE
 from carrier.info import logger
-
+from carrier.constant import ROLE_TYPE
+import time
 SESSION = db.session
 # 邮件发送
 def sm(receiver, password):

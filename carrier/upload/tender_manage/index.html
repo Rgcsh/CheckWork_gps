@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title></title>
+		<!--登录特效-->
+		<link href="others/login_texiao/css/index_style.css" rel="stylesheet" type="text/css">
+
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="others/bootstrap/dist/css/bootstrap.css">
+		<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="others/bootstrap/dist/css/bootstrap-theme.css">
+		<!--导入jquery-->
+		<script src="others/jquery/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="others/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="others/jquery/jquery_color.js" type="text/javascript" charset="utf-8"></script>
+		<!--导入jquery-cookies-->
+		<script src="others/jquery/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="others/bootstrap/dist/js/bootstrap.js"></script>
+		<!--导入jQuery Validate-->
+		<script src="others/jquery/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--导入jq md5加密-->
+		<script src="others/jquery/jquery_md5.js" type="text/javascript" charset="utf-8"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body>
+		<!--特效start-->
+		<div class="header" id="demo">
+			<div class="canvaszz"> </div>
+			<canvas id="canvas"></canvas>
+			<!--特效end-->
+			<div class="container" style="position: absolute;top: 8%;width: inherit;">
+				<div class="row clearfix" style="margin-top: 8%;">
+					<div class="col-md-4 column">
+					</div>
+					<div class="col-md-4 column" id='login_form' style="background-color: white;padding-top: 2%;padding-bottom: 5%;border-radius: 6px;">
+						<form class="form-horizontal" role="form" id='form_login'>
+							<div class="form-group">
+								<h3 class="text-center text-warning">
+								欢迎登录员工考勤系统
+							</h3>
+							</div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+								<div class="col-sm-10">
+									<input class="required form-control" id="login_email" type="text" isemail='true'>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+								<div class="col-sm-10">
+									<input class="required form-control" id="login_password" type="password" isPassword='true'>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div class="checkbox">
+										<label><input type="checkbox">记住我</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 column">
+								<button type="button" id='login_button' class="btn btn-block btn-default btn-info" style="font-size: large;">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+								<label style="color: orangered;"></label>
+							</div>
+							<div class="col-md-12 column" style="margin-top: 3%;">
+								<a id='sign_link'>注册</a>
+								<a id='forget_link' style="float: right;">忘记密码</a>
+							</div>
+						</form>
+					</div>
+
+					<div class="col-md-4 column" id='sign_form' style="background-color: white;padding-top: 0%;padding-bottom: 1%;border-radius: 6px; display: none;">
+						<!--注册-->
+						<form role="form" class="form-horizontal" id='register_form'>
+							<div class="form-group">
+								<h3 class="text-center text-warning">
+								欢迎注册
+								</h3>
+							</div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-3 control-label">输入邮箱</label>
+								<div class="col-sm-9">
+									<input type="text" class="required form-control" id='regEmail' aria-describedby="sizing-addon2" isemail='true'>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-3 control-label">输入密码</label>
+								<div class="col-sm-9">
+									<input type="password" minlength="6" maxlength="16" class="required error form-control" id='regPass' aria-describedby="sizing-addon2" ispassword='true'>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-3 control-label">确认密码</label>
+								<div class="col-sm-9">
+									<input type="password" name="confirmPass" class="required form-control" minlength="6" maxlength="16" id='confirmPass'>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-3 control-label">用户姓名</label>
+								<div class="col-sm-9">
+									<input type="text" class="required form-control" id='username' isChinese='true' aria-describedby="sizing-addon2">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-12">
+									<span class="input-group-addon">
+        						<input type="radio" name='role_type' id='role_manager' value="1"></input><label for="role_manager">&nbsp;&nbsp;管理员</label>
+      							</span>
+									<span class="input-group-addon">
+      							<input type="radio" name='role_type' id='role_user' value="2" checked="checked"></input><label for="role_user">&nbsp;&nbsp;员工</label>
+      							</span>
+								</div>
+							</div>
+							<div class="form-group" style="margin-bottom: 0px;">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-block btn-default btn-info" id='createAccount' style="font-size: large;">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+									<label style="color: orangered;"></label>
+								</div>
+							</div>
+							<div class="col-sm-12 column">
+								<a class='hold_back_login'>返回</a>
+							</div>
+						</form>
+					</div>
+
+					<div class="col-md-4 column" id='forget_form' style="background-color: white;padding-top: 2%;padding-bottom: 5%;border-radius: 6px; display: none;">
+						<!--忘记密码-->
+						<form role="form" id='forget_form'>
+							<div class="form-group">
+								<h3 class="text-center text-warning">
+								通过邮箱找回密码
+								</h3>
+							</div>
+							<div class="form-group input-group">
+								<span class="input-group-addon" id="sizing-addon2">邮箱地址</span>
+								<input type="email" id='forget_form_email' class="form-control">
+							</div>
+							<div class="progress form-group">
+								<div class="progress-bar progress-bar-striped active" id='progress_bar_find_pass' role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:5%">
+								</div>
+							</div>
+							<div class="form-group">
+								<button type="button" class="btn btn-block btn-default btn-info" id="find_paswod_button" style="font-size: large;">找回密码</button>
+								<label style="color: orangered;"></label>
+							</div>
+							<div class="col-md-12 column">
+								<a class='hold_back_login'>返回</a>
+							</div>
+						</form>
+					</div>
+					<!--忘记密码end-->
+					<div class="col-md-4 column">
+					</div>
+				</div>
+			</div>
+			<!--特效-->
+		</div>
+		<audio autoplay class="audio" style="display: none;">
+			<source src="others/login_texiao/css/Music.mp3" type="audio/mp3">
+		</audio>
+		<script src="others/login_texiao/js/texiao.js"></script>
+		<!--特效 end-->
+
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login_texiao.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/forget.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
