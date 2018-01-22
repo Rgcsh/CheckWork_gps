@@ -11,14 +11,14 @@ from .. import db
 
 @auth.errorhandler(sqlalchemy.exc.DBAPIError)
 def db_exception(e):
-        logger.error('Db Exception: %s', (e))
-        logger.error("meet fails when the execution of a database operation")
-        db.session.rollback()
-        return rw(cs.DB_ERROR), 500
+    logger.error('Db Exception: %s', e)
+    logger.error("meet fails when the execution of a database operation")
+    db.session.rollback()
+    return rw(cs.DB_ERROR), 500
 
 
 @auth.errorhandler(Exception)
 def unhandled_exception(e):
-        logger.error('Unhandled Exception: %s', (e))
-        logger.error(traceback.format_exc())
-        return rw(cs.SERVER_ERR), 500
+    logger.error('Unhandled Exception: %s', e)
+    logger.error(traceback.format_exc())
+    return rw(cs.SERVER_ERR), 500

@@ -1,27 +1,20 @@
 # -*- coding:utf-8 -*-
 
-import datetime
-import hashlib
-import os
-import string
-from functools import wraps, partial
-from random import choice
+from functools import partial
+from functools import wraps
 from time import time
 
-from flask import json
-from flask import jsonify
-from flask import request, g, current_app, abort
-from flask import url_for
+from flask import g
+from flask import request
 
 from carrier import constant as cs
 from carrier import redis_store
 from carrier.info import logger
 from carrier.service.public_service import return_role_list
 from public_service import request_data, resq_wrapper as rw
-from functools import wraps
-from flask import request
 
-#请求参数
+
+# 请求参数
 def request_info(f):
     @wraps(f)
     def decorator(*args, **kwargs):
@@ -38,7 +31,9 @@ def request_info(f):
             logger.info('Response:%s', response_info)
         func_return.headers.__dict__.get('_list').append(("Access-Control-Allow-Origin", "*"))
         return func_return
+
     return decorator
+
 
 # 判断能否登录
 def v_login(f):
@@ -51,6 +46,7 @@ def v_login(f):
         if not email:
             return rw(cs.TOKEN_EXPIRE)
         return f(*args, **kwargs)
+
     return decorator
 
 
@@ -64,7 +60,9 @@ def v_normal_role(f):
         if role not in return_role_list('user'):
             return rw(cs.NOT_ALLOW)
         return f(*args, **kwargs)
+
     return decorator
+
 
 # manager权限
 def v_manager_role(f):
@@ -76,8 +74,8 @@ def v_manager_role(f):
         if role not in return_role_list('manager'):
             return rw(cs.NOT_ALLOW)
         return f(*args, **kwargs)
-    return decorator
 
+    return decorator
 
 
 # 检查重复提交
@@ -110,5 +108,3 @@ def timing(func=None):
         return result
 
     return _wrapper
-
-

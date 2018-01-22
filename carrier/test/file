@@ -1,0 +1,30 @@
+location = / {
+                        if ($http_user_agent ~* ubuntu) {
+                                set $num 1;
+                                #rewrite ^.*$ /400.html;
+                                #break;
+                        }
+                        if ($num = 1) {
+                                #rewrite ^.*$ /400.html;
+                                rewrite ^/ http://$server_addr:$server_port/index.html redirect;
+                        }
+                        if ($remote_addr = 172.16.72.37) {
+                                #return 400;
+                                #rewrite ^.*$ /404.html;
+                                break;
+                        }
+                        #return 500;
+                        #root /home/rgc/baidu_eye/upload/tender_manage;
+                        index test.html;
+                }
+                location ~ ^/(css|js|others)/ {
+                        root /home/rgc/baidu_eye/upload/tender_manage;
+                        expires 1s;
+                }
+
+location ~* /*.html {
+    if ($request_uri !~ (index|test).html) {
+        rewrite ^/ http://$server_addr:$server_port/index.html;
+    }
+    root /home/rgc/baidu_eye/upload/tender_manage;
+    }

@@ -5,7 +5,6 @@ import json
 import os
 import random
 
-import re
 import requests
 import sys
 import time
@@ -66,16 +65,18 @@ def index():
 # User actions
 # ============
 
+# noinspection PyBroadException
 @auth.route('/carrier/users', methods=['POST'])
 @request_info
 def register():
-    '''
+    """
         注册接口
         password,str:must
         email,str:must
         role_type,int:must
         username,str:must
-    '''
+    """
+    global r
     request_dict = try_check_request_data(request_data(), ['password', 1, 1], ['email', 1, 1],
                                           ['role_type', 0, 1], ['username', 1, 1])
     try:
@@ -97,7 +98,7 @@ def register():
                        }
         try:
             r = requests.post(current_app.config['BAIDU_URL'] + '/entity/add', data=search_info)
-            print r.text
+            # print r.text
             if json.loads(r.text)['status'] != 0:
                 return rw(cs.BD_ADD_ENTITY_ERROR, r.text)
         except:
@@ -108,10 +109,10 @@ def register():
 @auth.route('/carrier/user_delete', methods=['POST'])
 @request_info
 def user_delete():
-    '''
+    """
         delete接口
         entity_name,str:must
-    '''
+    """
     request_dict = try_check_request_data(request_data(), ['entity_name', 1, 1])
     try:
         entity_name = gen_two_password(request_dict['entity_name'])
@@ -130,11 +131,11 @@ def user_delete():
 @auth.route('/carrier/login', methods=['POST'])
 @request_info
 def login():
-    '''
+    """
         登录接口
         email,str:must
         password,str:must
-    '''
+    """
     request_dict = try_check_request_data(request_data(), ['password', 1, 1], ['email', 1, 1])
     try:
         password = gen_one_password(request_dict['password'])
@@ -164,10 +165,10 @@ def login():
 @request_info
 @v_login
 def logout():
-    '''
+    """
         退出接口
         token,str:must
-    '''
+    """
     token = request_data().get('token')
     redis_store.delete('token:%s' % token)
     return jsonify({'code': 1800, 'message': 'logout success'})
@@ -177,11 +178,11 @@ def logout():
 @request_info
 @v_login
 def password_reset():
-    '''
+    """
     重置密码接口
     new_password,str:must
     old_password,str:must
-    '''
+    """
     user = g.user
     request_dict = try_check_request_data(request_data(), ['new_password', 1, 0], ['old_password', 1, 0],
                                           ['user_no', 1, 0], ['user_department', 1, 0])
@@ -216,10 +217,10 @@ def password_reset():
 @auth.route('/carrier/password', methods=['POST'])
 @request_info
 def password_send():
-    '''
+    """
     忘记密码接口
     email:must have
-    '''
+    """
 
     email = request_data().get('email')
     user = User.query.filter_by(email=email).first()
@@ -234,21 +235,22 @@ def password_send():
         return rw(cs.NO_USER)
 
 
+# noinspection PyPep8Naming
 @auth.route('/carrier/uploader', methods=['POST'])
 @request_info
 @v_login
 def uploader():
-    '''
+    """
     图片上传接口
-    '''
+    """
     user = g.user
     user_id = str(user.id)
     file_upload = request.files['file']
     if file_upload and v_file(file_upload.filename):
         flag = request_data().get('flag')
         timestamp = str(time.time()).replace(".", "")
-        postfName = str(file_upload.filename.rsplit('.', 1)[1].lower())
-        savename = user_id + '_' + flag + '_' + timestamp + '.' + postfName
+        postf_name = str(file_upload.filename.rsplit('.', 1)[1].lower())
+        savename = user_id + '_' + flag + '_' + timestamp + '.' + postf_name
         file_upload.save(os.path.join(current_app.config['UPLOAD_FOLDER'], savename))
         url = url_for('.index', _external=True) + current_app.config['UPLOAD_FOLDER'] + savename
         return rw(cs.OK, url)
@@ -259,9 +261,9 @@ def uploader():
 @auth.route('/upload/<path:path>')
 @request_info
 def send_file(path):
-    '''
+    """
     获取图片
-    '''
+    """
     return send_from_directory('upload/', path)
 
 
@@ -270,13 +272,13 @@ def send_file(path):
 @v_login
 @v_manager_role
 def createcirclefence():
-    '''
+    """
     创建圆形围栏
     fence_name:NOT MUST, 围栏名称
     longitude:must have,围栏圆心经度
     latitude:must have,围栏圆心纬度
     radius:must have,围栏半径
-    '''
+    """
     # 0 int; 1 str; 2 nothing;3 float
     # item[2] 0:非必传 1必传
     request_dict = try_check_request_data(request_data(), ['longitude', 3, 1]
@@ -307,7 +309,7 @@ def createcirclefence():
 @v_login
 @v_manager_role
 def updatecirclefence():
-    '''
+    """
     更新圆形围栏
     fence_id:MUST, 围栏的唯一标识
     fence_name:NOT MUST, 围栏名称
@@ -315,9 +317,7 @@ def updatecirclefence():
     latitude:must have,围栏圆心纬度
     radius:must have,围栏半径
     denoise:must have,围栏去噪参数
-    '''
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
+    """
     request_dict = try_check_request_data(request_data(), ['fence_id', 0, 1], ['longitude', 3, 1]
                                           , ['latitude', 3, 1], ['radius', 0, 1])
     try:
@@ -348,9 +348,9 @@ def updatecirclefence():
 @v_login
 # @v_manager_role
 def fence_list():
-    '''
+    """
     查询围栏
-    '''
+    """
     search_info = {
         'fence_ids': '4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'
     }
@@ -372,11 +372,9 @@ def fence_list():
 @auth.route('/fence/delete', methods=['POST'])
 @request_info
 def fence_delete():
-    '''
+    """
     delete围栏
-    '''
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
+    """
     request_dict = try_check_request_data(request_data(), ['fence_ids', 0, 1])
     try:
         fence_ids = request_dict['fence_ids']
@@ -397,10 +395,10 @@ def fence_delete():
 @v_login
 @v_normal_role
 def fence_querystatus():
-    '''
+    """
     打卡,查询是否在围栏内
     onwork:must,1:上班 2:下班
-    '''
+    """
 
     request_dict = try_check_request_data(request_data(), ['onwork', 0, 1], ['fence_id', 0, 1])
     try:
@@ -469,11 +467,11 @@ def fence_querystatus():
 @v_login
 @v_normal_role
 def update():
-    '''
+    """
     上传经纬度坐标
     lat:must have, 纬度
     lon:must have, 经度
-    '''
+    """
     request_dict = try_check_request_data(request_data(), ['latitude', 3, 1], ['longitude', 3, 1])
     try:
         lat = request_dict['latitude']
@@ -498,11 +496,11 @@ def update():
 @v_login
 @v_normal_role
 def geoconv():
-    '''
+    """
     坐标转换
     lat:must have, 纬度
     lon:must have, 经度
-    '''
+    """
     request_dict = try_check_request_data(request_data(), ['lat', 3, 1], ['lng', 3, 1])
     try:
         lat = request_dict['lat']
@@ -530,9 +528,8 @@ def send_excel():
     """
     print shippers' information
     """
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
-    request_dict = try_check_request_data(request_data(), ['name', 1, 0],  ['user_id', 1, 0], ['num', 1, 0], ['depart', 1, 0],
+    request_dict = try_check_request_data(request_data(), ['name', 1, 0], ['user_id', 1, 0], ['num', 1, 0],
+                                          ['depart', 1, 0],
                                           ['email', 1, 0], ['start_date', 1, 1], ['end_date', 1, 1])
     try:
         name = request_dict['name']
@@ -545,20 +542,19 @@ def send_excel():
     except:
         return rw(cs.REQUEST_GET_VAL_fAIL)
     query_str = 'user.role_type=2 '
-    print 'df', name,depart,num,email,user_id
-    if name!='':
-        query_str += 'and user.username="%s" ' % (name)
-    if depart!='':
-        query_str += 'and user.user_department="%s" ' % (depart)
-    if num!='':
-        query_str += 'and user.user_no="%s" ' % (num)
-    if email!='':
-        query_str += 'and user.email="%s" ' % (email)
-    if user_id!='':
-        query_str += 'and user.id="%s" ' % (user_id)
+    if name != '':
+        query_str += 'and user.username="%s" ' % name
+    if depart != '':
+        query_str += 'and user.user_department="%s" ' % depart
+    if num != '':
+        query_str += 'and user.user_no="%s" ' % num
+    if email != '':
+        query_str += 'and user.email="%s" ' % email
+    if user_id != '':
+        query_str += 'and user.id="%s" ' % user_id
     user_list = User.query.filter(query_str).all()
-    print query_str
-    if len(user_list)==0:
+    # print query_str
+    if len(user_list) == 0:
         return rw(cs.NO_DATA)
 
     date_list = get_date_list(start_date, end_date)
@@ -599,7 +595,7 @@ def send_excel():
         for cols_item in range(5):
             first_col = sheet1.col(cols_item)
             first_col.width = 256 * 23
-    filename = '员工考勤表_%s至%s_%s%s' % (start_date, end_date,time.time(),random.random()) + '.xls'
+    filename = '员工考勤表_%s至%s_%s%s' % (start_date, end_date, time.time(), random.random()) + '.xls'
     f.save('upload/' + filename)
     excel_url = url_for('.index', _external=True) + 'upload/' + filename
     return rw(cs.OK, excel_url)
@@ -613,8 +609,6 @@ def carrier_user_list():
     """
     print shippers' information
     """
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
     request_dict = try_check_request_data(request_data(), ['name', 1, 0], ['depart', 1, 0], ['num', 1, 0],
                                           ['email', 1, 0], ['page_index', 0, 1])
     try:
@@ -626,27 +620,27 @@ def carrier_user_list():
     except:
         return rw(cs.REQUEST_GET_VAL_fAIL)
 
-    query_str='user.role_type=2 '
-    if name!='':
-        query_str+='and user.username="%s" ' %(name)
-    if depart!='':
-        query_str+='and user.user_department="%s" ' %(depart)
-    if num!='':
-        query_str+='and user.user_no="%s" ' %(num)
-    if email!='':
-        query_str+='and user.email="%s" ' %(email)
-    query_result= db.session.query(User.username, User.user_department, User.user_no, User.email, User.id).filter(
+    query_str = 'user.role_type=2 '
+    if name != '':
+        query_str += 'and user.username="%s" ' % name
+    if depart != '':
+        query_str += 'and user.user_department="%s" ' % depart
+    if num != '':
+        query_str += 'and user.user_no="%s" ' % num
+    if email != '':
+        query_str += 'and user.email="%s" ' % email
+    query_result = db.session.query(User.username, User.user_department, User.user_no, User.email, User.id).filter(
         query_str
     )
     count = query_result.count()
-    truck_objs = query_result.order_by().slice((page_index - 1) * 15,page_index * 15)
-    data = [{'check_result_name': item[0], 'check_result_depart': is_none(item[1]), 'check_result_num': is_none(item[2]),
-             'check_result_email': item[3],'user_id': item[4]} for item in truck_objs]
+    truck_objs = query_result.order_by().slice((page_index - 1) * 15, page_index * 15)
+    data = [
+        {'check_result_name': item[0], 'check_result_depart': is_none(item[1]), 'check_result_num': is_none(item[2]),
+         'check_result_email': item[3], 'user_id': item[4]} for item in truck_objs]
     if count != 0:
         return jsonify({'code': 1800, 'data': data, 'count': count, 'errmsg': None})
     else:
         return jsonify({'code': 1808, 'errmsg': cs.ERR_MSG[1808], 'data': None})
-    return rw(cs.OK)
 
 
 @auth.route('/carrier/check_work_detail', methods=['GET'])
@@ -656,8 +650,6 @@ def check_work_detail():
     """
     print shippers' information
     """
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
     request_dict = try_check_request_data(request_data(), ['user_no', 1, 1], ['start_time', 1, 1], ['end_time', 1, 1])
     try:
         user_id = request_dict['user_no']
@@ -665,19 +657,14 @@ def check_work_detail():
         end_date = request_dict['end_time']
     except:
         return rw(cs.REQUEST_GET_VAL_fAIL)
-    result_list_obj=Check_work.query.filter(Check_work.user_id==user_id,Check_work.date.between(start_date, end_date))
-    print result_list_obj
-    count=result_list_obj.count()
+    result_list_obj = Check_work.query.filter(Check_work.user_id == user_id,
+                                              Check_work.date.between(start_date, end_date))
+    count = result_list_obj.count()
 
-    if count==0:
+    if count == 0:
         return rw(cs.NO_DATA)
-    result_list=[]
+    result_list = []
     for item in result_list_obj:
-        result_list.append({'date':item.date,'start_time':is_none(item.start_time),'end_time':is_none(item.end_time)})
-    return rw(cs.OK,result_list)
-
-
-
-
-
-
+        result_list.append(
+            {'date': item.date, 'start_time': is_none(item.start_time), 'end_time': is_none(item.end_time)})
+    return rw(cs.OK, result_list)

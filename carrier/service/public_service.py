@@ -22,6 +22,9 @@ from carrier import db
 from carrier.info import logger
 from carrier.constant import ROLE_TYPE
 import time
+
+from carrier.models import Check_work, User
+
 SESSION = db.session
 # 邮件发送
 def sm(receiver, password):
@@ -250,7 +253,15 @@ def get_today_time():
 def change_email_str(str):
     return re.sub(r'[\@\.]','_',str)
 
+def build_class(class_name):
+    dict_class={'check_work':Check_work,'user':User}
+    return dict_class[class_name]('2017',1)
+
+
+
 if __name__ == "__main__":
     print get_date_list('2017-01-27','2017-01-27')
     # print gen_one_password('teU3J1IL')
     print get_today_date()
+
+    print build_class('check_work')

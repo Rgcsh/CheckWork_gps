@@ -35,7 +35,7 @@ TRANS_POINT_FAIL=1830
 REQUEST_GET_VAL_fAIL=1831
 BD_GETLAST_POINT_FAIL=1832
 CAN_NOT_CLOCK=1833
-
+RESUBMIT=1834
 ERR_MSG = {
     1800: 'success',
     1801: 'server err!',
@@ -71,6 +71,7 @@ ERR_MSG = {
     1831: '数据类型取值失败!',
     1832: '查询最后的上传坐标失败!',
     1833: '无法打卡',
+    1834: '禁止频繁操作'
 }
 
 

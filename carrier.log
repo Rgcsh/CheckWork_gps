@@ -25156,3 +25156,175 @@ TypeError: 'module' object is not callable
 
 2018-01-16 16:40:08,959 - Response:<werkzeug.wsgi.FileWrapper object at 0x7ff9583cf590>
 
+2018-01-17 10:57:12,021 - Request: GET / CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2018-01-17 10:57:12,022 - Response:['<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>Redirecting...</title>\n<h1>Redirecting...</h1>\n<p>You should be redirected automatically to target URL: <a href="http://172.16.71.76:3100/upload/tender_manage/index.html">http://172.16.71.76:3100/upload/tender_manage/index.html</a>.  If not click the link.']
+
+2018-01-17 10:57:12,114 - Request: GET /upload/tender_manage/index.html CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([])])
+
+2018-01-17 13:17:46,367 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'68cf63c62bc68d71fc41c028375e2f6e'), ('email', u'3@qq.com')])])
+
+2018-01-17 13:17:46,484 - Db Exception: (_mysql_exceptions.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+2018-01-17 13:17:46,493 - meet fails when the execution of a database operation
+
+2018-01-17 13:29:28,069 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'68cf63c62bc68d71fc41c028375e2f6e'), ('email', u'3@qq.com')])])
+
+2018-01-17 13:29:28,158 - Response:['{\n  "code": 1806, \n  "data": null, \n  "errmsg": "no user"\n}']
+
+2018-01-17 13:30:57,058 - Request: POST /carrier/users CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('username', u'\u8981\u7684'), ('password', u'68cf63c62bc68d71fc41c028375e2f6e'), ('email', u'3@qq.com'), ('role_type', u'2')])])
+
+2018-01-17 13:30:57,367 - Response:['{\n  "code": 1820, \n  "data": "{\\"status\\":1,\\"message\\":\\"\\u670d\\u52a1\\u5668\\u5185\\u90e8\\u9519\\u8bef\\"}", \n  "errmsg": "entity\\u521b\\u5efa\\u5931\\u8d25!"\n}']
+
+2018-01-17 13:34:19,438 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'68cf63c62bc68d71fc41c028375e2f6e'), ('email', u'3@qq.com')])])
+
+2018-01-17 13:34:19,460 - Response:['{"code": 1806, "data": null, "errmsg": "no user"}']
+
+2018-01-17 13:36:30,442 - Request: POST /carrier/users CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('username', u'\u6ce8\u518c'), ('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com'), ('role_type', u'2')])])
+
+2018-01-17 13:36:30,653 - client: 172.16.71.76, path: /carrier/users, method: POST, action:承运商用户注册接口, result:1800, time:2018-01-17 13:36:30.653135, user_id:注册时没有user.id
+
+2018-01-17 13:36:30,653 - Response:['{"code": 1800, "data": null, "errmsg": "success"}']
+
+2018-01-17 13:36:30,683 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 13:36:30,687 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "00a111ddcd8f6e7a6d1eb75df688605f", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 13:40:25,329 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 13:40:25,335 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "7dd2f509edab74626465784a3908768b", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:06:54,793 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:06:54,820 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "14302a4ca227888f864751cce6e28dd4", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:09:58,856 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'14302a4ca227888f864751cce6e28dd4')]), ImmutableMultiDict([])])
+
+2018-01-17 14:09:59,100 - Response:['{"code": 1824, "data": "{\\"status\\":1,\\"message\\":\\"\\u670d\\u52a1\\u5668\\u5185\\u90e8\\u9519\\u8bef\\"}", "errmsg": "query\\u56f4\\u680f\\u5931\\u8d25!"}']
+
+2018-01-17 14:25:20,155 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:25:20,184 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "a07501ffcc7619216ef68cc102496b7e", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:25:23,349 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'a07501ffcc7619216ef68cc102496b7e')]), ImmutableMultiDict([])])
+
+2018-01-17 14:25:23,440 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 14:27:42,295 - Request: GET /carrier/check_work_detail CombinedMultiDict([ImmutableMultiDict([('token', u'a07501ffcc7619216ef68cc102496b7e'), ('start_time', u'2017-12-31'), ('user_no', u'9'), ('end_time', u'2018-01-17')]), ImmutableMultiDict([])])
+
+2018-01-17 14:27:42,327 - Response:['{"code": 1808, "data": null, "errmsg": "no data"}']
+
+2018-01-17 14:32:56,001 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'1@qq.com')])])
+
+2018-01-17 14:32:56,025 - Response:['{"code": 1806, "data": null, "errmsg": "no user"}']
+
+2018-01-17 14:33:20,883 - Request: POST /carrier/users CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('username', u'\u6b22\u8fce\u6ce8\u518c'), ('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'1@qq.com'), ('role_type', u'1')])])
+
+2018-01-17 14:33:20,935 - client: 172.16.71.76, path: /carrier/users, method: POST, action:承运商用户注册接口, result:1800, time:2018-01-17 14:33:20.935014, user_id:注册时没有user.id
+
+2018-01-17 14:33:20,935 - Response:['{"code": 1800, "data": null, "errmsg": "success"}']
+
+2018-01-17 14:33:20,967 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'1@qq.com')])])
+
+2018-01-17 14:33:20,971 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 14:28:28 GMT", "email": "1@qq.com", "id": 10, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 1, "token": "36ed583893f00e184400471c800109d3", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6b22\\u8fce\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:33:26,711 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'36ed583893f00e184400471c800109d3')]), ImmutableMultiDict([])])
+
+2018-01-17 14:33:26,833 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 14:34:01,815 - Request: GET /carrier/user_list CombinedMultiDict([ImmutableMultiDict([('token', u'36ed583893f00e184400471c800109d3'), ('num', u''), ('depart', u''), ('name', u''), ('page_index', u'1'), ('email', u'')]), ImmutableMultiDict([])])
+
+2018-01-17 14:34:01,815 - client: 172.16.71.76, path: /carrier/user_list, method: GET
+
+2018-01-17 14:34:01,844 - Response:['{"code": 1800, "count": 4, "data": [{"check_result_depart": "", "check_result_email": "2020956572@qq.com", "check_result_name": "rgc", "check_result_num": "", "user_id": 4}, {"check_result_depart": "", "check_result_email": "rgc@qq.com", "check_result_name": "rgc@qq.com", "check_result_num": "", "user_id": 7}, {"check_result_depart": "", "check_result_email": "rgc1@qq.com", "check_result_name": "rgc1", "check_result_num": "", "user_id": 8}, {"check_result_depart": "", "check_result_email": "3@qq.com", "check_result_name": "\\u6ce8\\u518c", "check_result_num": "", "user_id": 9}], "errmsg": null}']
+
+2018-01-17 14:34:34,626 - Request: GET /carrier/export CombinedMultiDict([ImmutableMultiDict([('depart', u''), ('name', u''), ('end_date', u'2018-01-17'), ('start_date', u'2017-10-02'), ('token', u'36ed583893f00e184400471c800109d3'), ('num', u''), ('user_id', u''), ('email', u'')]), ImmutableMultiDict([])])
+
+2018-01-17 14:34:35,184 - Response:['{"code": 1800, "data": "http://172.16.71.76:3000/upload/\\u5458\\u5de5\\u8003\\u52e4\\u8868_2017-10-02\\u81f32018-01-17_1516170875.170.573952636638.xls", "errmsg": "success"}']
+
+2018-01-17 14:38:37,890 - Request: GET /carrier/user_list CombinedMultiDict([ImmutableMultiDict([('token', u'36ed583893f00e184400471c800109d3'), ('num', u''), ('depart', u''), ('name', u''), ('page_index', u'1'), ('email', u'')]), ImmutableMultiDict([])])
+
+2018-01-17 14:38:37,890 - client: 172.16.71.76, path: /carrier/user_list, method: GET
+
+2018-01-17 14:38:37,903 - Response:['{"code": 1800, "count": 4, "data": [{"check_result_depart": "", "check_result_email": "2020956572@qq.com", "check_result_name": "rgc", "check_result_num": "", "user_id": 4}, {"check_result_depart": "", "check_result_email": "rgc@qq.com", "check_result_name": "rgc@qq.com", "check_result_num": "", "user_id": 7}, {"check_result_depart": "", "check_result_email": "rgc1@qq.com", "check_result_name": "rgc1", "check_result_num": "", "user_id": 8}, {"check_result_depart": "", "check_result_email": "3@qq.com", "check_result_name": "\\u6ce8\\u518c", "check_result_num": "", "user_id": 9}], "errmsg": null}']
+
+2018-01-17 14:38:38,798 - Request: GET /carrier/export CombinedMultiDict([ImmutableMultiDict([('depart', u''), ('name', u''), ('end_date', u'2018-01-17'), ('start_date', u'2017-10-02'), ('token', u'36ed583893f00e184400471c800109d3'), ('num', u''), ('user_id', u''), ('email', u'')]), ImmutableMultiDict([])])
+
+2018-01-17 14:38:39,333 - Response:['{"code": 1800, "data": "http://172.16.71.76:3000/upload/\\u5458\\u5de5\\u8003\\u52e4\\u8868_2017-10-02\\u81f32018-01-17_1516171119.330.619047955458.xls", "errmsg": "success"}']
+
+2018-01-17 14:39:20,016 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'36ed583893f00e184400471c800109d3')]), ImmutableMultiDict([])])
+
+2018-01-17 14:39:20,116 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 14:39:36,622 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:39:36,626 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "d9ff4fc5d6deddee05100b063b1d6aa3", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:41:12,613 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:41:12,617 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "e1241bf34bc8ee07a34aa5dbaf8fe3df", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:41:51,958 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:41:51,981 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "df13233af6410ce2dcbd49d379c990d0", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:42:57,342 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:42:57,346 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "53a72e5c0b93ac0497a951a114761285", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:44:11,145 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'53a72e5c0b93ac0497a951a114761285')]), ImmutableMultiDict([])])
+
+2018-01-17 14:44:11,240 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 14:46:16,527 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:46:16,530 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "256034284ab94dcee03ff56e841bc4e0", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:47:19,985 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 14:47:19,991 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "eccd06c4aa5f7b02f733957a8f4f7b92", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 14:54:33,409 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'eccd06c4aa5f7b02f733957a8f4f7b92')]), ImmutableMultiDict([])])
+
+2018-01-17 14:54:33,598 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 15:42:49,755 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 15:42:49,777 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "0e052c971c12fabb3a6b366309cfdb2d", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 15:45:32,233 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 15:45:32,239 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "5496489b9936e728e121d2b6fd003524", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 15:45:55,470 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'1f06e9e688e4f02e35b07312b9066c7d'), ('email', u'3@qq.com')])])
+
+2018-01-17 15:45:55,473 - Response:['{"code": 1812, "data": null, "errmsg": "passwd error!"}']
+
+2018-01-17 15:45:59,281 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 15:45:59,286 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "4c04284f2b84d628ae93e60db4252263", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 16:13:50,064 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 16:13:50,068 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "d9f1842c158ba02004c4f07d81684660", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 16:14:18,791 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 16:14:18,795 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "27ed3ba175fabf5570a3fed04053ec69", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 16:15:11,822 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'd9f1842c158ba02004c4f07d81684660')]), ImmutableMultiDict([])])
+
+2018-01-17 16:15:11,926 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+
+2018-01-17 16:15:33,607 - Request: GET /carrier/check_work_detail CombinedMultiDict([ImmutableMultiDict([('token', u'd9f1842c158ba02004c4f07d81684660'), ('start_time', u'2017-11-26'), ('user_no', u'9'), ('end_time', u'2018-01-17')]), ImmutableMultiDict([])])
+
+2018-01-17 16:15:33,616 - Response:['{"code": 1808, "data": null, "errmsg": "no data"}']
+
+2018-01-17 16:19:50,503 - Request: POST /carrier/login CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('password', u'3edf466d2a8fa3875c73467915cda515'), ('email', u'3@qq.com')])])
+
+2018-01-17 16:19:50,507 - Response:['{"code": 1800, "data": {"create_time": "Wed, 17 Jan 2018 13:33:17 GMT", "email": "3@qq.com", "id": 9, "password": "b68f1671a3f6e9d2cb8f4475227e8c54", "photo_url": null, "role_type": 2, "token": "4381bdd0f1786fb391419aed84bf6d05", "update_time": null, "user_department": null, "user_no": null, "username": "\\u6ce8\\u518c"}, "errmsg": "success"}']
+
+2018-01-17 16:19:55,095 - Request: GET /fence/list CombinedMultiDict([ImmutableMultiDict([('token', u'4381bdd0f1786fb391419aed84bf6d05')]), ImmutableMultiDict([])])
+
+2018-01-17 16:19:55,184 - Response:['{"code": 1800, "data": {"fence_id": 4, "latitude": 31.220302, "longitude": 121.260468, "radius": 100}, "errmsg": "success"}']
+

@@ -1,8 +1,471 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb86f1b-5b19-4d5a-afd6-8410740062c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.TXT" afterPath="$PROJECT_DIR$/README.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carrier/test/file" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/carrier/auth/carrier.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/carrier/test/zyl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/check_table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/check_work.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/conf_fence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/public.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/user_detail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/forget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/login_texiao.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/public.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/user_detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/WdatePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/WdatePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/datePicker.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/default/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/default/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/img.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.hound.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/browser-features.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/ads.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/navs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/tools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/translations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_plugins/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_plugins/bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_pug/customizer-nav.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_pug/customizer-variables.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/docs.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/src/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/src/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-lyft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-newsweek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-riot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-vogue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/src/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/src/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/anchor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/blog/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/carousel/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/cover/cover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/cover/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/dashboard/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/grid/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron-narrow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/justified-nav/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/justified-nav/justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-fixed-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-static-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/non-responsive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/non-responsive/non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/signin/signin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/starter-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/starter-template/starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/theme/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/change-version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/affix-with-sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/jquery.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/jquery.slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery-3.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery_color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery_md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/Music.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/in_top_bj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/nav_gv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/top_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/index_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/js/texiao.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/on_off_open/lc_switch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/on_off_open/lc_switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/user_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/user_table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/滚动验证.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/菜单栏.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-10-10至2018-01-12_1515736939.10.436871209658.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-10-10至2018-01-12_1515736961.390.239664609666.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-14.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331074.47.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331090.7.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331233.590.401605434087.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513587412.220.521188108529.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513588749.240.668478338493.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590329.530.700697056919.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590342.730.0757472960271.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590418.040.900774228607.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590490.690.194236804651.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-27至2017-12-14.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-27至2017-12-18_1513589916.220.494407631426.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-12-03至2017-12-12.xls" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/baidu_eye.iml" afterPath="$PROJECT_DIR$/.idea/baidu_eye.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier.log" afterPath="$PROJECT_DIR$/carrier.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/auth/errors.py" afterPath="$PROJECT_DIR$/carrier/auth/errors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/auth/views.py" afterPath="$PROJECT_DIR$/carrier/auth/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/constant.py" afterPath="$PROJECT_DIR$/carrier/constant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/models.py" afterPath="$PROJECT_DIR$/carrier/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/decorator.py" afterPath="$PROJECT_DIR$/carrier/service/decorator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/public_service.py" afterPath="$PROJECT_DIR$/carrier/service/public_service.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/access.log" afterPath="$PROJECT_DIR$/logs/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/rgccron" afterPath="$PROJECT_DIR$/nginx/rgccron" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,13 +477,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/baidu_eye$zyl.coverage" NAME="zyl Coverage Results" MODIFIED="1513056187921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$up.coverage" NAME="up Coverage Results" MODIFIED="1512022634696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
+    <SUITE FILE_PATH="coverage/baidu_eye$class_factory.coverage" NAME="class_factory Coverage Results" MODIFIED="1516329120201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$up_map.coverage" NAME="up_map Coverage Results" MODIFIED="1512633624947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$rgc_test.coverage" NAME="rgc_test Coverage Results" MODIFIED="1513319257050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$views.coverage" NAME="views Coverage Results" MODIFIED="1513330253828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/auth" />
     <SUITE FILE_PATH="coverage/baidu_eye$gevent.coverage" NAME="gevent Coverage Results" MODIFIED="1516070490833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
-    <SUITE FILE_PATH="coverage/baidu_eye$public_service.coverage" NAME="public_service Coverage Results" MODIFIED="1511430288588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/service" />
+    <SUITE FILE_PATH="coverage/baidu_eye$public_service.coverage" NAME="public_service Coverage Results" MODIFIED="1516329982145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/service" />
     <SUITE FILE_PATH="coverage/baidu_eye$manage.coverage" NAME="manage Coverage Results" MODIFIED="1512526942677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/baidu_eye$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1516091737927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/baidu_eye$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1516329281433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,12 +499,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.TXT" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.TXT">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="223">
+              <caret line="132" column="12" lean-forward="true" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/service/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="511" column="4" lean-forward="false" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/constant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="e#88#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/service/decorator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_service.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/service/public_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="257" column="42" lean-forward="false" selection-start-line="257" selection-start-column="42" selection-end-line="257" selection-end-column="42" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,11 +618,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>filter_by</find>
-      <find>check_result_depart</find>
-      <find>check_result_search</find>
-      <find>check_table_search_div</find>
-      <find>check_table_result_div</find>
       <find>result_data</find>
       <find>/fence/list</find>
       <find>excel</find>
@@ -86,6 +643,11 @@
       <find>carrier/expor</find>
       <find>check_work(</find>
       <find>filter</find>
+      <find>fence/list</find>
+      <find>print</find>
+      <find>User(</find>
+      <find>Check_work(</find>
+      <find>check_resubmit</find>
     </findStrings>
     <replaceStrings>
       <replace>pi</replace>
@@ -98,12 +660,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/upload/upload/df" />
-        <option value="$PROJECT_DIR$/upload/tender_manage/login" />
-        <option value="$PROJECT_DIR$/carrier/auth/test_uploader.py" />
-        <option value="$PROJECT_DIR$/carrier/upload/tender_manage/login.html" />
-        <option value="$PROJECT_DIR$/upload/upload/tender_manage/login.html" />
-        <option value="$PROJECT_DIR$/upload/tender_manage/login.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/trans_provider/manage.py" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/merge.py" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/js/forget.js" />
@@ -115,16 +671,13 @@
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/js/login.js" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/user_detail.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/conf_fence.html" />
-        <option value="$PROJECT_DIR$/carrier/service/decorator.py" />
         <option value="$PROJECT_DIR$/carrier/test/up_map.py" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/css/user_detail.css" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/main.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/tes.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/check_work.html" />
-        <option value="$PROJECT_DIR$/carrier/constant.py" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/check_work.html" />
         <option value="$PROJECT_DIR$/carrier/config.py" />
-        <option value="$PROJECT_DIR$/carrier/test/zyl.py" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/auth/views.py" />
         <option value="$PROJECT_DIR$/carrier/upload/新建文本文档.txt" />
         <option value="$PROJECT_DIR$/carrier/upload/tender_manage/check_work.html" />
@@ -138,17 +691,26 @@
         <option value="$PROJECT_DIR$/upload/tender_manage/conf_fence.html" />
         <option value="$PROJECT_DIR$/upload/tender_manage/滚动验证.html" />
         <option value="$PROJECT_DIR$/upload/tender_manage/user_detail.html" />
-        <option value="$PROJECT_DIR$/carrier/service/public_service.py" />
-        <option value="$PROJECT_DIR$/carrier/models.py" />
-        <option value="$PROJECT_DIR$/carrier/auth/errors.py" />
-        <option value="$PROJECT_DIR$/carrier/auth/views.py" />
         <option value="$PROJECT_DIR$/upload/tender_manage/user_table.html" />
         <option value="$PROJECT_DIR$/upload/tender_manage/check_work.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/sql.txt" />
         <option value="$PROJECT_DIR$/carrier/test/gevent.py" />
         <option value="$PROJECT_DIR$/carrier/test/gevent_test.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/README.TXT" />
+        <option value="$PROJECT_DIR$/carrier/test/zyl.py" />
+        <option value="$PROJECT_DIR$/carrier/test/file" />
+        <option value="$PROJECT_DIR$/logs/access.log" />
+        <option value="$PROJECT_DIR$/static/js/public.js" />
+        <option value="$PROJECT_DIR$/logs/error.log" />
+        <option value="$PROJECT_DIR$/nginx/rgccron" />
+        <option value="$PROJECT_DIR$/carrier/test/class_factory.py" />
+        <option value="$PROJECT_DIR$/carrier/service/public_service.py" />
+        <option value="$PROJECT_DIR$/carrier/auth/errors.py" />
+        <option value="$PROJECT_DIR$/carrier/auth/views.py" />
+        <option value="$PROJECT_DIR$/carrier/constant.py" />
+        <option value="$PROJECT_DIR$/carrier/service/decorator.py" />
+        <option value="$PROJECT_DIR$/carrier/models.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
       </list>
     </option>
   </component>
@@ -163,6 +725,25 @@
     <option name="y" value="151" />
     <option name="width" value="1017" />
     <option name="height" value="822" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +774,23 @@
               <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
               <item name="carrier" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="baidu_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="carrier" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baidu_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="carrier" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baidu_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,17 +808,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/manage1.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/carrier/auths" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/upload/tender_manage" />
       <recent name="$PROJECT_DIR$/upload" />
       <recent name="$PROJECT_DIR$/migrations" />
       <recent name="$PROJECT_DIR$/carrier/test" />
-      <recent name="$PROJECT_DIR$/carrier/upload" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/carrier/auths" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -530,7 +1129,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage (1)">
+  <component name="RunManager" selected="Python.public_service">
+    <configuration name="class_factory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/carrier/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="baidu_eye" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/class_factory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -563,7 +1180,25 @@
       <module name="baidu_eye" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver -h120.27.110.143 -p3000" />
+      <option name="PARAMETERS" value="runserver -h172.16.71.76 -p3100" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="public_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/carrier/service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="baidu_eye" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/service/public_service.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -581,24 +1216,6 @@
       <module name="baidu_eye" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/rgc_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="up_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/carrier/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="baidu_eye" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/up_map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -621,39 +1238,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="zyl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/carrier/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="baidu_eye" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/zyl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.manage (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.rgc_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.up_map" />
-      <item index="3" class="java.lang.String" itemvalue="Python.zyl" />
-      <item index="4" class="java.lang.String" itemvalue="Python.views" />
-      <item index="5" class="java.lang.String" itemvalue="Python.gevent" />
+      <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gevent" />
+      <item index="4" class="java.lang.String" itemvalue="Python.class_factory" />
+      <item index="5" class="java.lang.String" itemvalue="Python.public_service" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gevent" />
-        <item index="1" class="java.lang.String" itemvalue="Python.views" />
-        <item index="2" class="java.lang.String" itemvalue="Python.rgc_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.zyl" />
-        <item index="4" class="java.lang.String" itemvalue="Python.up_map" />
+        <item index="0" class="java.lang.String" itemvalue="Python.public_service" />
+        <item index="1" class="java.lang.String" itemvalue="Python.class_factory" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gevent" />
+        <item index="3" class="java.lang.String" itemvalue="Python.views" />
+        <item index="4" class="java.lang.String" itemvalue="Python.rgc_test" />
       </list>
     </recent_temporary>
   </component>
@@ -683,15 +1282,17 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32723358" sideWeight="0.50222504" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25538793" sideWeight="0.49586776" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25538793" sideWeight="0.5054037" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25538793" sideWeight="0.4945963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3739224" sideWeight="0.4939606" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5301724" sideWeight="0.49777496" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109980926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18308964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2424569" sideWeight="0.4939606" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.49777496" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06929434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19008264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36530173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46443966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -702,7 +1303,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35414425" sideWeight="0.4978328" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -710,6 +1310,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.project" />
   </component>
@@ -727,83 +1328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/201544331/email/mime/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/zyl.py" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="192" column="18" lean-forward="false" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/upload/tender_manage/check_work.html" />
-    <entry file="file://$PROJECT_DIR$/carrier/upload/tender_manage/check_table.html" />
-    <entry file="jar://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/SQLAlchemy-1.1.4-py2.7-linux-x86_64.egg!/sqlalchemy/util/langhelpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="754" column="0" lean-forward="false" selection-start-line="754" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/201544331/cProfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/-1227933812/flask_debugtoolbar/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/SQLAlchemy-1.1.4-py2.7-linux-x86_64.egg!/sqlalchemy/orm/identity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/SQLAlchemy-1.1.4-py2.7-linux-x86_64.egg!/sqlalchemy/orm/attributes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/SQLAlchemy-1.1.4-py2.7-linux-x86_64.egg!/sqlalchemy/orm/state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/remote_sources/412733863/-1227933812/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1644" column="0" lean-forward="false" selection-start-line="1644" selection-start-column="0" selection-end-line="1644" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/upload/rgc_df_151012188612.png" />
-    <entry file="file://$PROJECT_DIR$/carrier/upload/新建文本文档.txt" />
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -825,7 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/rgc_test.py" />
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/map.html" />
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/table.html" />
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/菜单栏.html" />
@@ -864,43 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/public_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/user_table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -923,14 +1409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/user_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
@@ -943,133 +1421,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="228" column="51" lean-forward="false" selection-start-line="228" selection-start-column="51" selection-end-line="228" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1511428772000" expanded="true" signature="306:1423" ph="..." />
-            <marker date="1511428772000" expanded="true" signature="1114:1242" ph="..." />
-            <marker date="1511428772000" expanded="true" signature="1266:1423" ph="..." />
-            <marker date="1511428772000" expanded="true" signature="1866:1922" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/__init__.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/_util.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/hub.py" />
-    <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10332">
-          <caret line="597" column="14" lean-forward="false" selection-start-line="597" selection-start-column="10" selection-end-line="597" selection-end-column="14" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <marker date="1513331151000" expanded="true" signature="1065:1586" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1219:1575" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1301:1522" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1644:1665" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1711:1815" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1818:1847" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1926:3335" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="1931:2057" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="2244:2434" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="2710:3265" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="2734:2951" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="2965:3195" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="3424:4088" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="3429:3486" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="3719:3882" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="4165:5032" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="4170:4243" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="4347:4447" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="5102:5301" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="5107:5154" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="5397:6798" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="5402:5476" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="5697:5901" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="6294:6606" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="6886:7279" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="6891:6933" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="7040:7239" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="7371:8036" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="7376:7398" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="7536:7993" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="8108:8181" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="8113:8133" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="8305:9387" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="8310:8449" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="8454:8511" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="8680:8810" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="8885:9073" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="9511:10746" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="9516:9711" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="9716:9773" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="9962:10136" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="10211:10429" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="10851:11712" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="10856:10876" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="10896:10969" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="11365:11712" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="11795:12437" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="11800:11824" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="11829:11886" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="12095:12131" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="12554:15575" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="12559:12612" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="12718:12803" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="12878:12937" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="14005:14070" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="14107:15530" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="14315:15102" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="15116:15432" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="15678:16501" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="15683:15750" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="15858:15937" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="16012:16378" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="16605:17381" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="16610:16674" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="16771:16839" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="16915:17061" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="17472:20622" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="17477:17520" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="17525:17582" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="17819:18101" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="18853:20388" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="19820:20253" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="19938:20253" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="20303:20388" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="20739:22302" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="20744:20787" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="20792:20849" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="21046:21242" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="21890:22085" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="21891:22061" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="22416:22459" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1513331151000" expanded="true" signature="22464:22521" ph="..." />
-            <marker date="1513331151000" expanded="true" signature="22649:22783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carrier/test/gevent_test.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1094,6 +1453,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logs/error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1102,7 +1527,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/access.log">
+    <entry file="file://$PROJECT_DIR$/nginx/rgccron">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/split_logs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/up_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/translate_photo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1110,10 +1569,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT">
+    <entry file="file://$PROJECT_DIR$/carrier/test/rgc_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="542">
+          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/class_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/upload/tender_manage/check_work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="260" column="12" lean-forward="false" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/service/public_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="257" column="42" lean-forward="false" selection-start-line="257" selection-start-column="42" selection-end-line="257" selection-end-column="42" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="132" column="12" lean-forward="true" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/service/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#88#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="511" column="4" lean-forward="false" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
