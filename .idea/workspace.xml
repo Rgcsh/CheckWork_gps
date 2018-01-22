@@ -6,466 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb86f1b-5b19-4d5a-afd6-8410740062c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carrier/test/file" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/carrier/auth/carrier.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/carrier/test/zyl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/check_table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/check_work.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/conf_fence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/public.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/css/user_detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/forget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/login_texiao.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/public.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/js/user_detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/WdatePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/lang/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/WdatePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/datePicker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/default/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/default/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/My97DatePicker/skin/whyGreen/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.hound.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/browser-bugs.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/browser-features.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/core-team.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/glyphicons.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/sass-team.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/showcase.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_data/translations.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/ads.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/alerts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/badges.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/breadcrumbs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/button-dropdowns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/button-groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/dropdowns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/glyphicons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/input-groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/jumbotron.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/labels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/list-group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/navs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/page-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/panels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/progress-bars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/responsive-embed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/thumbnails.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/components/wells.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/code.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/forms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/helpers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/images.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/less.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/responsive-utilities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/sass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/css/type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/customizer-variables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/accessibility.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/community.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/download.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/grunt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/license.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/third-party-support.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/tools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/translations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/getting-started/whats-included.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/affix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/alerts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/collapse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/dropdowns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/popovers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/scrollspy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/tooltips.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/js/transitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/customize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_includes/nav/migration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_layouts/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_layouts/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_plugins/bridge.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_plugins/bugify.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_pug/customizer-nav.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/_pug/customizer-variables.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/docs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/docs.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/src/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/css/src/pygments-manni.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/components.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/devices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-lyft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-newsweek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-riot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/expo-vogue.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/img/sass-less.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/customize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/docs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/raw-files.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/src/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/src/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/Blob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/FileSaver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/anchor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/holder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/jszip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/less.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/assets/js/vendor/uglify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/browser-bugs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/customize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/blog/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/carousel/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/carousel/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/cover/cover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/cover/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/dashboard/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/grid/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/grid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron-narrow/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/jumbotron/jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/justified-nav/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/justified-nav/justified-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-fixed-top/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-static-top/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/navbar/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/non-responsive/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/non-responsive/non-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/offcanvas/offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/blog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/carousel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/dashboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/grid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sign-in.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/starter-template.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/screenshots/theme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/signin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/signin/signin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/starter-template/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/starter-template/starter-template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/theme/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/migration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/docs/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/change-version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/npm-shrinkwrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/phantom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/unit/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/affix-with-sticky-footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/affix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/collapse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/popover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/scrollspy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tests/visual/tooltip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/MyGet.ps1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/bootstrap.less.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/jquery.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/jquery.slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/slider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/form_judge/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery-3.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery_color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/jquery/jquery_md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/Music.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/in_top_bj.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/nav_gv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/img/top_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/css/index_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/login_texiao/js/texiao.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/on_off_open/lc_switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/others/on_off_open/lc_switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/user_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/user_table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/滚动验证.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tender_manage/菜单栏.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-10-10至2018-01-12_1515736939.10.436871209658.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-10-10至2018-01-12_1515736961.390.239664609666.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-14.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331074.47.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331090.7.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-15_1513331233.590.401605434087.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513587412.220.521188108529.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513588749.240.668478338493.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590329.530.700697056919.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590342.730.0757472960271.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590418.040.900774228607.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-26至2017-12-18_1513590490.690.194236804651.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-27至2017-12-14.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-11-27至2017-12-18_1513589916.220.494407631426.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/员工考勤表_2017-12-03至2017-12-12.xls" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/baidu_eye.iml" afterPath="$PROJECT_DIR$/.idea/baidu_eye.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier.log" afterPath="$PROJECT_DIR$/carrier.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/auth/errors.py" afterPath="$PROJECT_DIR$/carrier/auth/errors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/auth/views.py" afterPath="$PROJECT_DIR$/carrier/auth/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/constant.py" afterPath="$PROJECT_DIR$/carrier/constant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/models.py" afterPath="$PROJECT_DIR$/carrier/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/decorator.py" afterPath="$PROJECT_DIR$/carrier/service/decorator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/public_service.py" afterPath="$PROJECT_DIR$/carrier/service/public_service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/access.log" afterPath="$PROJECT_DIR$/logs/access.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/rgccron" afterPath="$PROJECT_DIR$/nginx/rgccron" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -521,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.TXT" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.TXT">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -536,16 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
               <caret line="511" column="4" lean-forward="false" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -696,7 +237,6 @@
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/sql.txt" />
         <option value="$PROJECT_DIR$/carrier/test/gevent.py" />
         <option value="$PROJECT_DIR$/carrier/test/gevent_test.py" />
-        <option value="$PROJECT_DIR$/README.TXT" />
         <option value="$PROJECT_DIR$/carrier/test/zyl.py" />
         <option value="$PROJECT_DIR$/carrier/test/file" />
         <option value="$PROJECT_DIR$/logs/access.log" />
@@ -711,6 +251,7 @@
         <option value="$PROJECT_DIR$/carrier/service/decorator.py" />
         <option value="$PROJECT_DIR$/carrier/models.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/README.TXT" />
       </list>
     </option>
   </component>
@@ -1274,23 +815,38 @@
       <option name="project" value="LOCAL" />
       <updated>1516095832476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1516606873840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516606873840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="289" y="151" width="1617" height="1062" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25538793" sideWeight="0.5054037" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25538793" sideWeight="0.4945963" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2424569" sideWeight="0.4939606" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.49777496" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06929434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19008264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36530173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36530173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1457,14 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1683,8 +1231,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
