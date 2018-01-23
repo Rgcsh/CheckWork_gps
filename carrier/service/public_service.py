@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import cgi
 import hashlib
 import json
 import smtplib
@@ -133,8 +134,8 @@ def v_file(filename):
 # 判断用户传参问题
 # 尽量所有参数全传,str类型非必传,int类型必传
 def try_check_request_data(request_data, *lists):
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
+    # item[1] 0 int; 1 str; 2 nothing;3 float
+    # item[2] 0:非必传; 1必传
     try:
         dic = dict()
         for item in lists:
@@ -151,7 +152,8 @@ def try_check_request_data(request_data, *lists):
                 else:
                     dic.update({key: int(value)})
             elif type == 1:
-                dic.update({key: str(value)})
+                # 不信任用户输入，转义html标签
+                dic.update({key:cgi.escape(str(value))})
             elif type == 2:
                 dic.update({key: value})
             elif type == 3:
