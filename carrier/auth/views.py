@@ -221,8 +221,11 @@ def password_send():
     忘记密码接口
     email:must have
     """
-
-    email = request_data().get('email')
+    request_dict = try_check_request_data(request_data(), ['email', 1, 1])
+    try:
+        email = request_dict['email']
+    except:
+        return rw(cs.REQUEST_GET_VAL_fAIL)
     user = User.query.filter_by(email=email).first()
     if user:
         password = gen_random_password()
@@ -235,7 +238,6 @@ def password_send():
         return rw(cs.NO_USER)
 
 
-# noinspection PyPep8Naming
 @auth.route('/carrier/uploader', methods=['POST'])
 @request_info
 @v_login
@@ -279,8 +281,6 @@ def createcirclefence():
     latitude:must have,围栏圆心纬度
     radius:must have,围栏半径
     """
-    # 0 int; 1 str; 2 nothing;3 float
-    # item[2] 0:非必传 1必传
     request_dict = try_check_request_data(request_data(), ['longitude', 3, 1]
                                           , ['latitude', 3, 1], ['radius', 0, 1])
     try:
@@ -346,7 +346,7 @@ def updatecirclefence():
 @auth.route('/fence/list', methods=['GET'])
 @request_info
 @v_login
-# @v_manager_role
+@v_manager_role
 def fence_list():
     """
     查询围栏
