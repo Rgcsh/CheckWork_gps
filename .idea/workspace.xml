@@ -6,24 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb86f1b-5b19-4d5a-afd6-8410740062c9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;17:56:02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;17:57:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;17:58:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;17:59:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:00:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:01:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:02:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:03:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:04:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:05:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:06:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:07:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:08:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:09:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:10:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:11:01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-30;18:12:01.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/camel_0130.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.TXT" afterPath="$PROJECT_DIR$/README.TXT" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,87 +43,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="656" column="0" lean-forward="false" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrier/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrier/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constant.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrier/constant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baidu_eye.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baidu_eye.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carrier.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrier.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="468342">
-              <caret line="26019" column="0" lean-forward="false" selection-start-line="26019" selection-start-column="0" selection-end-line="26019" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -231,7 +136,6 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/carrier/test/abstract_factory.py" />
         <option value="$PROJECT_DIR$/carrier/test/cgi_escape.py" />
-        <option value="$PROJECT_DIR$/README.TXT" />
         <option value="$PROJECT_DIR$/carrier/service/public_service.py" />
         <option value="$PROJECT_DIR$/carrier/service/decorator.py" />
         <option value="$PROJECT_DIR$/nginx/test_uwsgi.py" />
@@ -242,6 +146,7 @@
         <option value="$PROJECT_DIR$/carrier/models.py" />
         <option value="$PROJECT_DIR$/baidu_eye.ini" />
         <option value="$PROJECT_DIR$/carrier/auth/views.py" />
+        <option value="$PROJECT_DIR$/README.TXT" />
       </list>
     </option>
   </component>
@@ -1000,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1185,7 +1083,15 @@
     <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="656" column="0" lean-forward="false" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
+          <caret line="656" column="0" lean-forward="true" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
