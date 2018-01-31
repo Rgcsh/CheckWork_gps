@@ -4,24 +4,24 @@ import hashlib
 import json
 import os
 import random
-
-import requests
 import sys
 import time
+
+import requests
 import xlwt
 from flask import request, jsonify, g, send_from_directory, url_for, redirect, \
     current_app
 
-from carrier.service.decorator import request_info, v_login, v_normal_role, v_manager_role
-from carrier.service.public_service import gen_two_password, gen_random_password, \
-    try_check_request_data, gen_one_password, v_file, distance, set_style, string_to_json, get_date_list, \
-    get_today_date, get_today_time, change_email_str, is_none
-from carrier.models import User, Check_work
+import carrier.constant as cs
 from carrier import db, redis_store
 from carrier.auth import auth
-from carrier.service.public_service import request_data, db_commit_all, return_role_list, sm
+from carrier.models import User, Check_work
+from carrier.service.decorator import request_info, v_login, v_normal_role, v_manager_role
+from carrier.service.public_service import gen_two_password, gen_random_password, \
+    try_check_request_data, gen_one_password, v_file, distance, set_style, get_date_list, \
+    get_today_date, get_today_time, change_email_str, is_none
+from carrier.service.public_service import request_data, db_commit_all, sm
 from carrier.service.public_service import resq_wrapper as rw
-import carrier.constant as cs
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -62,19 +62,15 @@ def index():
     return redirect(url_for('.index', _external=True) + current_app.config['FRONT_URL'] + 'index.html')
 
 
-# User actions
-# ============
-
-# noinspection PyBroadException
 @auth.route('/carrier/users', methods=['POST'])
 @request_info
 def register():
     """
-        注册接口
-        password,str:must
-        email,str:must
-        role_type,int:must
-        username,str:must
+    注册接口
+    password,must have,str
+    email,must have,str
+    role_type,must have,int
+    username,must have,str
     """
     global r
     request_dict = try_check_request_data(request_data(), ['password', 1, 1], ['email', 1, 1],
@@ -110,8 +106,8 @@ def register():
 @request_info
 def user_delete():
     """
-        delete接口
-        entity_name,str:must
+    delete接口
+    entity_name,must have,str
     """
     request_dict = try_check_request_data(request_data(), ['entity_name', 1, 1])
     try:
@@ -132,9 +128,9 @@ def user_delete():
 @request_info
 def login():
     """
-        登录接口
-        email,str:must
-        password,str:must
+    登录接口
+    email,must have,str
+    password,must have,str
     """
     request_dict = try_check_request_data(request_data(), ['password', 1, 1], ['email', 1, 1])
     try:
@@ -166,8 +162,8 @@ def login():
 @v_login
 def logout():
     """
-        退出接口
-        token,str:must
+    退出接口
+    token,str:must
     """
     token = request_data().get('token')
     redis_store.delete('token:%s' % token)
@@ -180,8 +176,8 @@ def logout():
 def password_reset():
     """
     重置密码接口
-    new_password,str:must
-    old_password,str:must
+    new_password,must have,str
+    old_password,must have,str
     """
     user = g.user
     request_dict = try_check_request_data(request_data(), ['new_password', 1, 0], ['old_password', 1, 0],
@@ -219,7 +215,7 @@ def password_reset():
 def password_send():
     """
     忘记密码接口
-    email:must have
+    email:must have,str
     """
     request_dict = try_check_request_data(request_data(), ['email', 1, 1])
     try:
@@ -264,7 +260,7 @@ def uploader():
 @request_info
 def send_file(path):
     """
-    获取图片
+    文件下载（包括前端文件）
     """
     return send_from_directory('upload/', path)
 
@@ -276,11 +272,11 @@ def send_file(path):
 def createcirclefence():
     """
     创建圆形围栏
-    fence_name:NOT MUST, 围栏名称
-    longitude:must have,围栏圆心经度
-    latitude:must have,围栏圆心纬度
-    radius:must have,围栏半径
+    longitude,must have,围栏圆心经度,float
+    latitude,must have,围栏圆心纬度,float
+    radius,must have,围栏半径,int
     """
+
     request_dict = try_check_request_data(request_data(), ['longitude', 3, 1]
                                           , ['latitude', 3, 1], ['radius', 0, 1])
     try:
@@ -311,13 +307,12 @@ def createcirclefence():
 def updatecirclefence():
     """
     更新圆形围栏
-    fence_id:MUST, 围栏的唯一标识
-    fence_name:NOT MUST, 围栏名称
-    longitude:must have,围栏圆心经度
-    latitude:must have,围栏圆心纬度
-    radius:must have,围栏半径
-    denoise:must have,围栏去噪参数
+    fence_id,MUST, 围栏的唯一标识,int
+    longitude,must have,围栏圆心经度,float
+    latitude,must have,围栏圆心纬度,float
+    radius,must have,围栏半径,int
     """
+
     request_dict = try_check_request_data(request_data(), ['fence_id', 0, 1], ['longitude', 3, 1]
                                           , ['latitude', 3, 1], ['radius', 0, 1])
     try:
@@ -351,6 +346,7 @@ def fence_list():
     """
     查询围栏
     """
+
     search_info = {
         'fence_ids': '4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'
     }
@@ -374,7 +370,9 @@ def fence_list():
 def fence_delete():
     """
     delete围栏
+    fence_ids,must have,int
     """
+
     request_dict = try_check_request_data(request_data(), ['fence_ids', 0, 1])
     try:
         fence_ids = request_dict['fence_ids']
@@ -397,12 +395,14 @@ def fence_delete():
 def fence_querystatus():
     """
     打卡,查询是否在围栏内
-    onwork:must,1:上班 2:下班
+    onwork,must have,int
+    fence_id,must have,int
     """
 
     request_dict = try_check_request_data(request_data(), ['onwork', 0, 1], ['fence_id', 0, 1])
     try:
         onwork = request_dict['onwork']
+        # 1:上班 2:下班
         fence_ids = request_dict['fence_id']
     except:
         return rw(cs.REQUEST_GET_VAL_fAIL)
@@ -428,9 +428,6 @@ def fence_querystatus():
     fence_radius = json.loads(r_fence.text)['fences'][0]['radius']
     # 计算是否在围栏内
     true_distance = distance(user_lon, user_lat, fence_lon, fence_lat)
-    # print true_distance
-    # print fence_radius
-    # print onwork
     if true_distance < fence_radius:
         this_date = get_today_date()
         this_time = get_today_time()
@@ -469,9 +466,10 @@ def fence_querystatus():
 def update():
     """
     上传经纬度坐标
-    lat:must have, 纬度
-    lon:must have, 经度
+    lat,must have, 纬度,float
+    lon,must have, 经度,float
     """
+
     request_dict = try_check_request_data(request_data(), ['latitude', 3, 1], ['longitude', 3, 1])
     try:
         lat = request_dict['latitude']
@@ -498,9 +496,10 @@ def update():
 def geoconv():
     """
     坐标转换
-    lat:must have, 纬度
-    lon:must have, 经度
+    lat,must have, 纬度,float
+    lon,must have, 经度,float
     """
+
     request_dict = try_check_request_data(request_data(), ['lat', 3, 1], ['lng', 3, 1])
     try:
         lat = request_dict['lat']
@@ -526,8 +525,16 @@ def geoconv():
 @request_info
 def send_excel():
     """
-    print shippers' information
+    查询打卡信息并发送表格
+    name,not must,str
+    user_id,not must,str
+    num,not must,str
+    depart,not must,str
+    email,not must,str
+    start_date,must have,str
+    end_date,must have,str
     """
+
     request_dict = try_check_request_data(request_data(), ['name', 1, 0], ['user_id', 1, 0], ['num', 1, 0],
                                           ['depart', 1, 0],
                                           ['email', 1, 0], ['start_date', 1, 1], ['end_date', 1, 1])
@@ -607,8 +614,14 @@ def send_excel():
 @v_manager_role
 def carrier_user_list():
     """
-    print shippers' information
+    管理员条件搜索用户列表
+    name,not must,str
+    depart,not must,str
+    num,not must,str
+    email,not must,str
+    page_index,must have,int
     """
+
     request_dict = try_check_request_data(request_data(), ['name', 1, 0], ['depart', 1, 0], ['num', 1, 0],
                                           ['email', 1, 0], ['page_index', 0, 1])
     try:
@@ -648,8 +661,12 @@ def carrier_user_list():
 @v_login
 def check_work_detail():
     """
-    print shippers' information
+    查询用户详细打卡信息
+    user_no,must have,str
+    start_time,must have,str
+    end_time,must have,str
     """
+
     request_dict = try_check_request_data(request_data(), ['user_no', 1, 1], ['start_time', 1, 1], ['end_time', 1, 1])
     try:
         user_id = request_dict['user_no']

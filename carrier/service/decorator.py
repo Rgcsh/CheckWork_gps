@@ -22,8 +22,6 @@ def request_info(f):
             [request.method, request.path, str(request_data())])
         logger.info('Request: %s', request_infos)
         func_return = f(*args, **kwargs)
-        # print func_return.__dict__
-        # response_info = func_return.response[0]
         response_info = str(func_return.response)
         if request.method == 'POST':
             logger.info('Response:%s', response_info)

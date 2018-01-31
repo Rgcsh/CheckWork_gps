@@ -32,7 +32,7 @@ class User(db.Model):
 
     def to_dict(self):
         output_dict = {}
-        dict.update(self.__dict__)
+        output_dict.update(self.__dict__)
         if "_sa_instance_state" in output_dict:
             del output_dict['_sa_instance_state']
         return output_dict
