@@ -172,6 +172,7 @@
 						type: 'post',
 						dataType: "json",
 						data: {
+						    token:$.cookie('token'),
 							fence_id: $('#submit_fence').attr("fence_id"),
 							longitude: lng,
 							latitude: lat,

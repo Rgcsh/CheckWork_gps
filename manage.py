@@ -5,8 +5,8 @@ from flask.ext.script import Manager, Shell
 from flask.ext.migrate import Migrate, MigrateCommand
 import datetime
 
-# app = create_app(os.getenv('FLASK_CONFIG') or 'kai')
-app = create_app(os.getenv('FLASK_CONFIG') or 'dev')
+app = create_app(os.getenv('FLASK_CONFIG') or 'kai')
+# app = create_app(os.getenv('FLASK_CONFIG') or 'dev')
 
 app.secret_key = os.urandom(24)
 app.permanent_session_lifetime = datetime.timedelta(seconds=24 * 60 * 60)

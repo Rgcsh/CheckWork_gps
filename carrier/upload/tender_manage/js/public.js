@@ -1,5 +1,5 @@
-//serverUrl = '//120.27.110.143:3000/'
 serverUrl = '//120.27.110.143:3000/'
+// serverUrl = '//120.27.110.143:3100/'
 //serverUrl = '//127.0.0.1:8080/'
 serverUrl_carrier = serverUrl + 'carrier/'
 serverUrl_fence = serverUrl + 'fence/'

@@ -6,12 +6,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb86f1b-5b19-4d5a-afd6-8410740062c9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/carrier/test/1.png" afterPath="$PROJECT_DIR$/carrier/test/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/baidu_eye.iml" afterPath="$PROJECT_DIR$/.idea/baidu_eye.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.TXT" afterPath="$PROJECT_DIR$/README.TXT" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier.log" afterPath="$PROJECT_DIR$/carrier.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/auth/views.py" afterPath="$PROJECT_DIR$/carrier/auth/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/decorator.py" afterPath="$PROJECT_DIR$/carrier/service/decorator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/service/public_service.py" afterPath="$PROJECT_DIR$/carrier/service/public_service.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/test/cgi_escape.py" afterPath="$PROJECT_DIR$/carrier/test/cgi_escape.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/upload/tender_manage/conf_fence.html" afterPath="$PROJECT_DIR$/carrier/upload/tender_manage/conf_fence.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carrier/upload/tender_manage/js/public.js" afterPath="$PROJECT_DIR$/carrier/upload/tender_manage/js/public.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/access.log" afterPath="$PROJECT_DIR$/logs/access.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/nginx.conf" afterPath="$PROJECT_DIR$/nginx/nginx.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/public.js" afterPath="$PROJECT_DIR$/static/js/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/tender_manage/conf_fence.html" afterPath="$PROJECT_DIR$/upload/tender_manage/conf_fence.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/tender_manage/js/public.js" afterPath="$PROJECT_DIR$/upload/tender_manage/js/public.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,17 +33,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/baidu_eye$abstract_factory.coverage" NAME="abstract_factory Coverage Results" MODIFIED="1516672864260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
+    <SUITE FILE_PATH="coverage/baidu_eye$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1517901116533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$public_service.coverage" NAME="public_service Coverage Results" MODIFIED="1516329982145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/service" />
-    <SUITE FILE_PATH="coverage/baidu_eye$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1516870294386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu_eye$cgi_escape.coverage" NAME="cgi_escape Coverage Results" MODIFIED="1516695958831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
+    <SUITE FILE_PATH="coverage/baidu_eye$up.coverage" NAME="up Coverage Results" MODIFIED="1512022634696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
+    <SUITE FILE_PATH="coverage/baidu_eye$abstract_factory.coverage" NAME="abstract_factory Coverage Results" MODIFIED="1516672864260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
+    <SUITE FILE_PATH="coverage/baidu_eye$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1519803813543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu_eye$views.coverage" NAME="views Coverage Results" MODIFIED="1513330253828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/auth" />
     <SUITE FILE_PATH="coverage/baidu_eye$gevent.coverage" NAME="gevent Coverage Results" MODIFIED="1516070490833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$manage.coverage" NAME="manage Coverage Results" MODIFIED="1512526942677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu_eye$class_factory.coverage" NAME="class_factory Coverage Results" MODIFIED="1516329120201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$up_map.coverage" NAME="up_map Coverage Results" MODIFIED="1512633624947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$zyl.coverage" NAME="zyl Coverage Results" MODIFIED="1513056187921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
-    <SUITE FILE_PATH="coverage/baidu_eye$up.coverage" NAME="up Coverage Results" MODIFIED="1512022634696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
     <SUITE FILE_PATH="coverage/baidu_eye$rgc_test.coverage" NAME="rgc_test Coverage Results" MODIFIED="1513319257050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/carrier/test" />
   </component>
   <component name="DatabaseView">
@@ -47,61 +60,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baidu_eye.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baidu_eye.ini">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_project.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start_project.sh">
+      <file leaf-file-name="errors.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reload_project.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reload_project.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/public.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -118,17 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>query_str</find>
-      <find>check_table_normal_search_button</find>
-      <find>normal_export_excel</find>
-      <find>hide_popover</find>
-      <find>getLocation</find>
-      <find>click_check_work</find>
-      <find>check_work</find>
-      <find>ence/queryst</find>
-      <find>url_for</find>
-      <find>carrier/expor</find>
-      <find>check_work(</find>
       <find>filter</find>
       <find>fence/list</find>
       <find>User(</find>
@@ -148,6 +110,17 @@
       <find>SESSION</find>
       <find>return_role_list</find>
       <find>print</find>
+      <find>args</find>
+      <find>from_ob</find>
+      <find>server_name</find>
+      <find>instance_path</find>
+      <find>log_cls</find>
+      <find>sm</find>
+      <find>requests</find>
+      <find>login</find>
+      <find>/fence/updatecirclefence</find>
+      <find>fence/updatecirclefence</find>
+      <find>/carrier/expor</find>
     </findStrings>
     <replaceStrings>
       <replace>pi</replace>
@@ -160,17 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/user_detail.html" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/conf_fence.html" />
-        <option value="$PROJECT_DIR$/carrier/test/up_map.py" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/css/user_detail.css" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/main.html" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/tes.html" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/upload/tender_manage/check_work.html" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/check_work.html" />
-        <option value="$PROJECT_DIR$/carrier/config.py" />
-        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/auth/views.py" />
-        <option value="$PROJECT_DIR$/carrier/upload/新建文本文档.txt" />
         <option value="$PROJECT_DIR$/carrier/upload/tender_manage/check_work.html" />
         <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier.log" />
         <option value="$PROJECT_DIR$/upload/tender_manage/js/login.js" />
@@ -190,14 +152,11 @@
         <option value="$PROJECT_DIR$/carrier/test/zyl.py" />
         <option value="$PROJECT_DIR$/carrier/test/file" />
         <option value="$PROJECT_DIR$/logs/access.log" />
-        <option value="$PROJECT_DIR$/nginx/rgccron" />
         <option value="$PROJECT_DIR$/carrier/test/class_factory.py" />
         <option value="$PROJECT_DIR$/carrier/auth/errors.py" />
         <option value="$PROJECT_DIR$/carrier/constant.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/carrier/test/abstract_factory.py" />
         <option value="$PROJECT_DIR$/carrier/test/cgi_escape.py" />
-        <option value="$PROJECT_DIR$/carrier/service/public_service.py" />
         <option value="$PROJECT_DIR$/carrier/service/decorator.py" />
         <option value="$PROJECT_DIR$/nginx/test_uwsgi.py" />
         <option value="$PROJECT_DIR$/logs/error.log" />
@@ -205,12 +164,26 @@
         <option value="$PROJECT_DIR$/start_project.sh" />
         <option value="$PROJECT_DIR$/carrier/models.py" />
         <option value="$PROJECT_DIR$/baidu_eye.ini" />
-        <option value="$PROJECT_DIR$/carrier/auth/views.py" />
-        <option value="$PROJECT_DIR$/README.TXT" />
         <option value="$PROJECT_DIR$/reload_project.sh" />
         <option value="$PROJECT_DIR$/carrier.log" />
         <option value="$PROJECT_DIR$/static/js/public.js" />
         <option value="$PROJECT_DIR$/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/carrier/test/celery_pid.pid" />
+        <option value="$PROJECT_DIR$/carrier/test/celery1.log" />
+        <option value="$PROJECT_DIR$/carrier/auth/views.py" />
+        <option value="$PROJECT_DIR$/carrier/celery_config.py" />
+        <option value="$PROJECT_DIR$/carrier/test/celery_log.log" />
+        <option value="$PROJECT_DIR$/carrier/__init__.py" />
+        <option value="$PROJECT_DIR$/carrier/service/public_service.py" />
+        <option value="$PROJECT_DIR$/carrier/test/flask_test.py" />
+        <option value="$PROJECT_DIR$/README.TXT" />
+        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/js/public.js" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/manage.py" />
+        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/models.py" />
+        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/carrier/auth/views.py" />
+        <option value="&lt;20f6d424-ff8f-4b1a-a98b-79c827a65d36&gt;/baidu_eye/upload/tender_manage/conf_fence.html" />
+        <option value="$PROJECT_DIR$/nginx/rgccron" />
       </list>
     </option>
   </component>
@@ -221,10 +194,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
-    <option name="y" value="-4" />
-    <option name="width" value="1011" />
-    <option name="height" value="770" />
+    <option name="x" value="496" />
+    <option name="y" value="241" />
+    <option name="width" value="1013" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -261,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,18 +257,12 @@
             <path>
               <item name="baidu_eye" type="b2602c69:ProjectViewProjectNode" />
               <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baidu_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baidu_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,15 +278,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/carrier/auths" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/upload" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/upload/tender_manage" />
       <recent name="$PROJECT_DIR$/migrations" />
       <recent name="$PROJECT_DIR$/carrier/test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/carrier/auths" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -683,7 +651,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flask_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -696,7 +664,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="baidu_eye" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/gevent_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carrier/test/flask_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -715,7 +683,7 @@
       <module name="baidu_eye" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver -h172.16.71.76 -p3100" />
+      <option name="PARAMETERS" value="runserver -h120.27.110.143 -p3000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -739,19 +707,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.manage (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gevent" />
-      <item index="2" class="java.lang.String" itemvalue="Python.class_factory" />
-      <item index="3" class="java.lang.String" itemvalue="Python.public_service" />
-      <item index="4" class="java.lang.String" itemvalue="Python.abstract_factory" />
-      <item index="5" class="java.lang.String" itemvalue="Python.cgi_escape" />
+      <item index="1" class="java.lang.String" itemvalue="Python.class_factory" />
+      <item index="2" class="java.lang.String" itemvalue="Python.public_service" />
+      <item index="3" class="java.lang.String" itemvalue="Python.abstract_factory" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cgi_escape" />
+      <item index="5" class="java.lang.String" itemvalue="Python.flask_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cgi_escape" />
-        <item index="1" class="java.lang.String" itemvalue="Python.abstract_factory" />
-        <item index="2" class="java.lang.String" itemvalue="Python.public_service" />
-        <item index="3" class="java.lang.String" itemvalue="Python.class_factory" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gevent" />
+        <item index="0" class="java.lang.String" itemvalue="Python.flask_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cgi_escape" />
+        <item index="2" class="java.lang.String" itemvalue="Python.abstract_factory" />
+        <item index="3" class="java.lang.String" itemvalue="Python.public_service" />
+        <item index="4" class="java.lang.String" itemvalue="Python.class_factory" />
       </list>
     </recent_temporary>
   </component>
@@ -794,15 +762,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25538793" sideWeight="0.5054037" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27478448" sideWeight="0.51112527" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25215518" sideWeight="0.4945963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34848484" sideWeight="0.4939606" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5625" sideWeight="0.49777496" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12778132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20915449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27478448" sideWeight="0.48887476" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3135776" sideWeight="0.4939606" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21996185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -812,7 +782,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25215518" sideWeight="0.4945963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35414425" sideWeight="0.4978328" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36530173" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -837,113 +806,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upload/tender_manage/js/public.js" />
-    <entry file="file://$PROJECT_DIR$/upload/tender_manage/user_detail.html" />
-    <entry file="file://$PROJECT_DIR$/upload/tender_manage/check_work.html" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/__init__.py" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/_util.py" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/hub.py" />
-    <entry file="file://$PROJECT_DIR$/carrier/test/gevent_test.py" />
-    <entry file="file://$PROJECT_DIR$/tes.txt" />
-    <entry file="file://$PROJECT_DIR$/sql.txt" />
-    <entry file="file://$PROJECT_DIR$/static/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/up_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/translate_photo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/rgc_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/class_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/upload/tender_manage/check_work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="260" column="12" lean-forward="false" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="511" column="4" lean-forward="false" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/carrier.log" />
-    <entry file="file://$PROJECT_DIR$/carrier/test/abstract_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4127">
@@ -958,45 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/test/cgi_escape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/tender_manage/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/public_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/service/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1009,13 +841,6 @@
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/rgccron">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +864,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/split_logs.sh">
+    <entry file="file://$PROJECT_DIR$/carrier/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="414">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/werkzeug/wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9498">
+          <caret line="597" column="10" lean-forward="true" selection-start-line="597" selection-start-column="10" selection-end-line="597" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/abstract_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1053,76 +920,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/config.py">
+    <entry file="file:///usr/lib/python2.7/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="1002">
+          <caret line="1138" column="8" lean-forward="false" selection-start-line="1138" selection-start-column="8" selection-end-line="1138" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/test_uwsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="656" column="0" lean-forward="true" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT">
+    <entry file="file://$PROJECT_DIR$/carrier/info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu_eye.ini">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="343" column="13" lean-forward="false" selection-start-line="343" selection-start-column="13" selection-end-line="343" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start_project.sh">
+    <entry file="file://$PROJECT_DIR$/carrier/test/cgi_escape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/celery/app/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="383" column="27" lean-forward="true" selection-start-line="383" selection-start-column="27" selection-end-line="383" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/rgc_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery1-1.log" />
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery1-2.log" />
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery1-3.log" />
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery1-4.log" />
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery_pid.pid">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery1.log" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/celery/utils/abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/service/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/celery_log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-432">
+          <caret line="868" column="0" lean-forward="false" selection-start-line="868" selection-start-column="0" selection-end-line="868" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/celery_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/service/public_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/test/flask_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reload_project.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+    <entry file="file://$PROJECT_DIR$/start_project.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/test_uwsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/split_logs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu_eye.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1134,23 +1109,55 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/public.js">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="72">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+    <entry file="file://$PROJECT_DIR$/carrier/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/tender_manage/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/rgccron">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrier/auth/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
       </provider>
