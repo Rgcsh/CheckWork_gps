@@ -10,12 +10,13 @@ import sys
 import time
 import xlwt
 from flask import request, jsonify, g, send_from_directory, url_for, redirect, \
-    current_app
-
-from carrier.service.decorator import request_info, v_login, v_normal_role, v_manager_role
+    current_app,abort
+from flask_sqlalchemy import get_debug_queries
+from carrier.info import logger
+from carrier.service.decorator import request_info, v_login, v_normal_role, v_manager_role, line_reap
 from carrier.service.public_service import gen_two_password, gen_random_password, \
     try_check_request_data, gen_one_password, v_file, distance, set_style, string_to_json, get_date_list, \
-    get_today_date, get_today_time, change_email_str, is_none
+    get_today_date, get_today_time, change_email_str, is_none, test1
 from carrier.models import User, Check_work
 from carrier import db, redis_store
 from carrier.auth import auth
@@ -55,6 +56,15 @@ def before_request():
 def handle_teardown_request(ex):
     SESSION.remove()
 
+
+@auth.after_app_request
+def after_request(response):
+    #录影响性能的缓慢数据库查询
+    for query in get_debug_queries():
+        if query.duration >= current_app.config['FLASKY_DB_QUERY_TIMEOUT']:
+            logger.warning('#####Slow query:%s \nParameters:%s \nDuration:%fs\nContext:%s\n #####'%
+                        (query.statement, query.parameters, query.duration,query.context))
+    return response
 
 @auth.route('/')
 @request_info
@@ -103,7 +113,7 @@ def register():
                 return rw(cs.BD_ADD_ENTITY_ERROR, r.text)
         except:
             return rw(cs.BD_ADD_ENTITY_ERROR, r.text)
-    return db_commit_all([u], [request, '承运商用户注册接口', '注册时没有user.id'])
+    return db_commit_all([u], [request, '用户注册接口', '注册时没有user.id'])
 
 
 @auth.route('/carrier/user_delete', methods=['POST'])
@@ -130,12 +140,14 @@ def user_delete():
 
 @auth.route('/carrier/login', methods=['POST'])
 @request_info
+# @line_reap
 def login():
     """
         登录接口
         email,str:must
         password,str:must
     """
+    # test1()
     request_dict = try_check_request_data(request_data(), ['password', 1, 1], ['email', 1, 1])
     try:
         password = gen_one_password(request_dict['password'])
@@ -159,7 +171,6 @@ def login():
     redis_store.hmset('token:%s' % token, user_json)
     redis_store.expire('token:%s' % token, current_app.config['TOKEN_EXPIRE'])
     return rw(cs.OK, user_json)
-
 
 @auth.route('/carrier/logout')
 @request_info
@@ -346,7 +357,7 @@ def updatecirclefence():
 @auth.route('/fence/list', methods=['GET'])
 @request_info
 @v_login
-@v_manager_role
+# @v_manager_role
 def fence_list():
     """
     查询围栏

@@ -1,5 +1,8 @@
 #coding:utf-8
 import os
+
+import datetime
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
@@ -12,7 +15,15 @@ class Config:
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     TOKEN_EXPIRE = 3600*2
     DEBUG = True
-    SECRET_KEY = "George Gao is a hero!"
+    # SECRET_KEY = os.urandom(24)
+    SECRET_KEY = 'Rgc is a wonderful boy!'
+    PERMANENT_SESSION_LIFETIME = datetime.timedelta(seconds=24 * 60 * 60)
+
+    #启用缓慢查询记录功能
+    SQLALCHEMY_RECORD_QUERIES = True
+    FLASKY_DB_QUERY_TIMEOUT = 0.00000000001
+
+
     MAX_CONTENT_LENGTH = 5 * 1024 * 1024
     UPLOAD_FOLDER = 'upload/'
     FRONT_URL = UPLOAD_FOLDER + 'tender_manage/'
@@ -60,7 +71,6 @@ class KaifaConfig(Config):
 
 class ProductionConfig(Config):
     DEBUG = False
-
 
 config = {
     'dev': DevelopmentConfig,

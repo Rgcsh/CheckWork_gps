@@ -1,0 +1,13 @@
+Filename: /home/rgc/baidu_eye/carrier/test/memory_profiler_test.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     4  21.4883 MiB  21.4883 MiB   @profile(precision=4,stream=open('memory_profiler.log','w+'))
+     5                             # @profile
+     6                             def test1():
+     7  21.4883 MiB   0.0000 MiB       c=0
+     8  21.4883 MiB   0.0000 MiB       for item in xrange(100000):
+     9  21.4883 MiB   0.0000 MiB           c+=1
+    10  21.4883 MiB   0.0000 MiB       print c
+
+

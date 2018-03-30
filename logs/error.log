@@ -1,0 +1,1 @@
+2018/03/23 18:15:12 [error] 958#958: *4 open() "/home/rgc/baidu_eye/static/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 172.16.71.76, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:3000"

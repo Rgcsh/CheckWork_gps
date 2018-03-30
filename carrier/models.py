@@ -20,7 +20,6 @@ class User(db.Model):
 
     user_no = db.Column('user_no', db.String(32), index=True, unique=True)  # 用户工号
     user_department = db.Column('user_department', db.String(32))  # 部门
-    photo_url = db.Column('photo_url', db.TEXT)  # 头像地址
     create_time = db.Column('create_time', db.TIMESTAMP, default=datetime.datetime.now())  # 创建时间
     update_time = db.Column('update_time', db.TIMESTAMP)  # 更新时间
 
@@ -35,6 +34,8 @@ class User(db.Model):
         output_dict.update(self.__dict__)
         if "_sa_instance_state" in output_dict:
             del output_dict['_sa_instance_state']
+        if "password" in output_dict:
+            del output_dict['password']
         return output_dict
 
 

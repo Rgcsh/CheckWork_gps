@@ -259,6 +259,9 @@ def build_class(class_name):
     dict_class={'check_work':Check_work,'user':User}
     return dict_class[class_name]('2017',1)
 
+def test1():
+    for item in range(100):
+        time.sleep(0.1)
 
 
 if __name__ == "__main__":
@@ -267,3 +270,5 @@ if __name__ == "__main__":
     print get_today_date()
 
     print build_class('check_work')
+
+

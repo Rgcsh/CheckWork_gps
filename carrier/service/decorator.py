@@ -6,6 +6,7 @@ from time import time
 
 from flask import g
 from flask import request
+from line_profiler import LineProfiler
 
 from carrier import constant as cs
 from carrier import redis_store
@@ -34,6 +35,17 @@ def request_info(f):
 
     return decorator
 
+#查询接口中每行代码执行的时间
+def line_reap(f):
+    @wraps(f)
+    def decorator(*args, **kwargs):
+        func_return = f(*args, **kwargs)
+        lp = LineProfiler()
+        lp_wrap = lp(f)
+        lp_wrap()
+        lp.print_stats()
+        return func_return
+    return decorator
 
 # 判断能否登录
 def v_login(f):
