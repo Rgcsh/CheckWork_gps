@@ -80,7 +80,7 @@ uWSGI==2.0.12
 vine==1.1.4
 virtualenv==15.0.1
 w3lib==1.11.0
-Werkzeug==0.9.4
+Werkzeug==0.15.3
 xlrd==0.9.4
 xlutils==2.0.0
 xlwt==1.0.0
